@@ -383,7 +383,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Générer et injecter chaque carte
   servicesDataset.forEach((service) => {
     const slugHash = generateSlugHash(service.dataTranslateKey);
-    const link = `/detail?slug=${service.slug}`;
+    const link = `detail.html?slug=${service.slug}`;
 
     // Créer l'élément HTML
     const card = document.createElement("div");
