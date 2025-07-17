@@ -899,6 +899,10 @@ textarea:-moz-placeholder {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .nav-logo {
+        font-size: 1em;
+    }
+
     .nav-right {
         gap: 15px;
     }
@@ -1093,6 +1097,10 @@ textarea:-moz-placeholder {
 }
 
 @media (max-width: 480px) {
+    .nav-logo {
+        font-size: 1em;
+    }
+
     .pricing-header {
         min-width: 100px;
     }
