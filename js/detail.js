@@ -326,6 +326,10 @@ const serviceData = {
 
 // Load service data when page loads
 document.addEventListener("DOMContentLoaded", function () {
+  // Initialize language from localStorage first
+  const savedLanguage = localStorage.getItem("selectedLanguage") || "en";
+  changeLanguage(savedLanguage, "detail");
+
   // Get service from URL parameter or default to windows-activation
   const urlParams = new URLSearchParams(window.location.search);
   const serviceKey = urlParams.get("service") || "windows-activation";
@@ -336,6 +340,14 @@ document.addEventListener("DOMContentLoaded", function () {
   initializeMobileMenu();
   initializeContactForm();
   initializeWhatsApp();
+
+  // Add language change event listener
+  const languageSelect = document.getElementById("languageSelect");
+  if (languageSelect) {
+    languageSelect.addEventListener("change", function () {
+      changeLanguage(this.value, "detail");
+    });
+  }
 });
 
 // Function to load service data
@@ -352,7 +364,6 @@ function loadService(serviceKey) {
   document.getElementById("service-icon").className = service.icon;
   document.getElementById("service-title").textContent = service.title;
   document.getElementById("service-subtitle").textContent = service.subtitle;
-  document.getElementById("service-price").textContent = service.price;
   document.getElementById("service-duration").textContent = service.duration;
   document.getElementById("service-warranty").textContent = service.warranty;
   document.getElementById("service-description").innerHTML =

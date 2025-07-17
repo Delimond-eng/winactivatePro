@@ -103,11 +103,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// Add loading animation
-window.addEventListener("load", () => {
-  document.body.classList.add("loaded");
-});
-
 // Pricing card hover effects
 document.querySelectorAll(".pricing-card").forEach((card) => {
   card.addEventListener("mouseenter", () => {
@@ -146,12 +141,14 @@ function typeWriter(element, text, speed = 50) {
 
 // Initialize typing effect when page loads
 document.addEventListener("DOMContentLoaded", () => {
-  const heroTitle = document.querySelector(".hero-title");
-  const originalText = heroTitle.textContent;
+  if (document.querySelector(".hero-title")) {
+    const heroTitle = document.querySelector(".hero-title");
+    const originalText = heroTitle.textContent;
 
-  setTimeout(() => {
-    typeWriter(heroTitle, originalText, 80);
-  }, 500);
+    setTimeout(() => {
+      typeWriter(heroTitle, originalText, 80);
+    }, 500);
+  }
 });
 
 // Add click to call functionality
@@ -215,3 +212,189 @@ function createScrollProgress() {
 
 // Initialize scroll progress
 createScrollProgress();
+
+// Hero Slider functionality
+let currentSlideIndex = 0;
+const slides = document.querySelectorAll(".hero-slide");
+const dots = document.querySelectorAll(".slider-dot");
+
+// Slider functions
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.classList.toggle("active", i === index);
+  });
+  dots.forEach((dot, i) => {
+    dot.classList.toggle("active", i === index);
+  });
+}
+
+function changeSlide(direction) {
+  currentSlideIndex += direction;
+  if (currentSlideIndex >= slides.length) currentSlideIndex = 0;
+  if (currentSlideIndex < 0) currentSlideIndex = slides.length - 1;
+  showSlide(currentSlideIndex);
+}
+
+function currentSlide(index) {
+  currentSlideIndex = index - 1;
+  showSlide(currentSlideIndex);
+}
+
+// Auto-play slider
+function autoPlaySlider() {
+  setInterval(() => {
+    changeSlide(1);
+  }, 5000); // Change slide every 5 seconds
+}
+
+// Initialize slider
+document.addEventListener("DOMContentLoaded", () => {
+  autoPlaySlider();
+
+  // Touch/swipe support for mobile
+  let startX = 0;
+  let endX = 0;
+
+  if (document.querySelector(".hero")) {
+    const heroSection = document.querySelector(".hero");
+
+    heroSection.addEventListener("touchstart", (e) => {
+      startX = e.touches[0].clientX;
+    });
+
+    heroSection.addEventListener("touchend", (e) => {
+      endX = e.changedTouches[0].clientX;
+      handleSwipe();
+    });
+  }
+
+  function handleSwipe() {
+    const swipeThreshold = 50;
+    const diff = startX - endX;
+
+    if (Math.abs(diff) > swipeThreshold) {
+      if (diff > 0) {
+        // Swipe left - next slide
+        changeSlide(1);
+      } else {
+        // Swipe right - previous slide
+        changeSlide(-1);
+      }
+    }
+  }
+});
+
+// FAQ Accordion functionality
+document.addEventListener("DOMContentLoaded", () => {
+  const faqItems = document.querySelectorAll(".faq-item");
+
+  faqItems.forEach((item) => {
+    const question = item.querySelector(".faq-question");
+
+    question.addEventListener("click", () => {
+      const isActive = item.classList.contains("active");
+
+      // Close all other FAQ items
+      faqItems.forEach((otherItem) => {
+        if (otherItem !== item) {
+          otherItem.classList.remove("active");
+        }
+      });
+
+      // Toggle current item
+      if (isActive) {
+        item.classList.remove("active");
+      } else {
+        item.classList.add("active");
+      }
+    });
+  });
+});
+
+// Close FAQ when clicking outside
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".faq-item")) {
+    document.querySelectorAll(".faq-item").forEach((item) => {
+      item.classList.remove("active");
+    });
+  }
+});
+
+// Testimonials Slider functionality
+let currentTestimonialSlide = 0;
+const testimonialSlides = document.querySelectorAll(".testimonials-grid");
+const testimonialDots = document.querySelectorAll(".testimonials-dot");
+const testimonialsSlider = document.getElementById("testimonialsSlider");
+
+function showTestimonialSlide(index) {
+  if (!testimonialsSlider) return;
+
+  const slideWidth = 100;
+  testimonialsSlider.style.transform = `translateX(-${index * slideWidth}%)`;
+
+  // Update dots
+  testimonialDots.forEach((dot, i) => {
+    dot.classList.toggle("active", i === index);
+  });
+}
+
+function changeTestimonialSlide(direction) {
+  const maxSlides = testimonialSlides.length - 1;
+  currentTestimonialSlide += direction;
+
+  if (currentTestimonialSlide > maxSlides) currentTestimonialSlide = maxSlides;
+  if (currentTestimonialSlide < 0) currentTestimonialSlide = 0;
+
+  showTestimonialSlide(currentTestimonialSlide);
+}
+
+function goToTestimonialSlide(index) {
+  currentTestimonialSlide = index;
+  showTestimonialSlide(currentTestimonialSlide);
+}
+
+// Initialize testimonials slider
+document.addEventListener("DOMContentLoaded", () => {
+  // Initialize first slide
+  showTestimonialSlide(0);
+
+  // Auto-play testimonials slider
+  setInterval(() => {
+    if (currentTestimonialSlide < testimonialSlides.length - 1) {
+      changeTestimonialSlide(1);
+    } else {
+      currentTestimonialSlide = -1;
+      changeTestimonialSlide(1);
+    }
+  }, 8000); // Change every 8 seconds
+
+  // Touch/swipe support for testimonials
+  let testimonialStartX = 0;
+  let testimonialEndX = 0;
+
+  if (testimonialsSlider) {
+    testimonialsSlider.addEventListener("touchstart", (e) => {
+      testimonialStartX = e.touches[0].clientX;
+    });
+
+    testimonialsSlider.addEventListener("touchend", (e) => {
+      testimonialEndX = e.changedTouches[0].clientX;
+      handleTestimonialSwipe();
+    });
+  }
+
+  function handleTestimonialSwipe() {
+    const swipeThreshold = 50;
+    const diff = testimonialStartX - testimonialEndX;
+
+    if (Math.abs(diff) > swipeThreshold) {
+      if (diff > 0) {
+        // Swipe left - next slide
+        changeTestimonialSlide(1);
+      } else {
+        // Swipe right - previous slide
+        changeTestimonialSlide(-1);
+      }
+    }
+  }
+});

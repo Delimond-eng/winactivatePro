@@ -51,6 +51,7 @@ textarea:-moz-placeholder {
     font-family: -apple-system, BlinkMacSystemFont, 'Poppins', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -75,40 +76,6 @@ textarea:-moz-placeholder {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-}
-
-.nav-right {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-/* Language Selector */
-.language-selector {
-    position: relative;
-}
-
-.language-selector select {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    border-radius: 6px;
-    padding: 8px 12px;
-    font-size: 0.9rem;
-    color: #1e293b;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.3s ease;
-    min-width: 80px;
-}
-
-.language-selector select:hover {
-    border-color: #2563eb;
-    background: #fff;
-}
-
-.language-selector select:focus {
-    border-color: #2563eb;
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
 .nav-logo {
@@ -289,6 +256,7 @@ textarea:-moz-placeholder {
     height: 100%;
     object-fit: cover;
 }
+
 
 .slider-nav {
     position: absolute;
@@ -529,7 +497,7 @@ textarea:-moz-placeholder {
 
 .faq-item {
     background: #f8fafc;
-    border: 1px solid #a1c1ea;
+    border: 1px solid #e2e8f0;
     border-radius: 12px;
     margin-bottom: 15px;
     overflow: hidden;
@@ -702,6 +670,7 @@ textarea:-moz-placeholder {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .testimonials-dots {
@@ -710,8 +679,8 @@ textarea:-moz-placeholder {
 }
 
 .testimonials-dot {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background: #d1d5db;
     cursor: pointer;
@@ -899,26 +868,8 @@ textarea:-moz-placeholder {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .nav-right {
-        gap: 15px;
-    }
-
-    .language-selector {
-        order: 1;
-    }
-
-    .nav-toggle {
-        order: 2;
-    }
-
-    .language-selector select {
-        padding: 6px 10px;
-        font-size: 0.85rem;
-        min-width: 70px;
-    }
-
     .hero {
-        background: none;
+        background: #e4eaf1;
         position: relative;
     }
 

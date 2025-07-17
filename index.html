@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WinActivate Pro - Professional Windows & Office Activation Services</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -16,20 +17,29 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <i class="fas fa-shield-alt"></i>
+                    <i class="fab fa-windows"></i>
                     <span>WinActivate Pro</span>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#testimonials">Reviews</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home" data-translate="nav.home">Accueil</a></li>
+                    <li><a href="#services" data-translate="nav.services">Services</a></li>
+                    <li><a href="#faq" data-translate="nav.faq">FAQ</a></li>
+                    <li><a href="#testimonials" data-translate="nav.testimonials">Avis</a></li>
+                    <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
                 </ul>
-                <div class="nav-toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                <div class="nav-right">
+                    <div class="language-selector">
+                        <select id="languageSelect">
+                            <option value="fr">🇫🇷 FR</option>
+                            <option value="en">🇬🇧 EN</option>
+                            <option value="nl">🇳🇱 NL</option>
+                        </select>
+                    </div>
+                    <div class="nav-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -39,41 +49,75 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Activate Windows & Office Easily</h1>
-                <p class="hero-subtitle">Professional activation services for Windows and Microsoft Office with lifetime
-                    validity. Fast, secure, and 100% genuine licenses backed by expert support.</p>
+                <h1 class="hero-title" data-translate="hero.title">Activez Windows & Office Facilement</h1>
+                <p class="hero-subtitle" data-translate="hero.subtitle">Services d'activation professionnels pour
+                    Windows et Microsoft Office avec validité à vie. Rapide, sécurisé et licences 100% authentiques avec
+                    support expert.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get Activated Now</a>
-                    <a href="#services" class="btn btn-secondary">View Services</a>
+                    <a href="#contact" class="btn btn-primary" data-translate="hero.btn.primary">Activez Maintenant</a>
+                    <a href="#services" class="btn btn-secondary" data-translate="hero.btn.secondary">Voir Services</a>
                 </div>
                 <div class="hero-features">
                     <div class="feature-item">
                         <i class="fas fa-shield-check"></i>
-                        <span>100% Genuine</span>
+                        <span data-translate="hero.feature.genuine">100% Authentique</span>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-clock"></i>
-                        <span>24/7 Support</span>
+                        <span data-translate="hero.feature.support">Support 24/7</span>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-infinity"></i>
-                        <span>Lifetime Validity</span>
+                        <span data-translate="hero.feature.lifetime">Validité à Vie</span>
                     </div>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Professional IT Services">
+                <div class="hero-slider">
+
+                    <div class="hero-slide active">
+                        <img src="images/hero-img-2.webp" alt="Windows Activation">
+                    </div>
+
+                    <div class="hero-slide">
+                        <img src="images/hero-img-1.webp" alt="Professional IT Services">
+                    </div>
+
+                    <div class="hero-slide">
+                        <img src="images/hero-img-3.webp" alt="Technical Support">
+                    </div>
+                    <div class="hero-slide">
+                        <img src="images/hero-img-4.jpg" alt="Computer Repair">
+                    </div>
+                    <div class="hero-slide">
+                        <img src="images/hero-img-8.webp" alt="Xbox Game">
+                    </div>
+
+                    <button class="slider-nav prev" onclick="changeSlide(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-nav next" onclick="changeSlide(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                    <div class="slider-dots">
+                        <span class="slider-dot active" onclick="currentSlide(1)"></span>
+                        <span class="slider-dot" onclick="currentSlide(2)"></span>
+                        <span class="slider-dot" onclick="currentSlide(3)"></span>
+                        <span class="slider-dot" onclick="currentSlide(4)"></span>
+                        <span class="slider-dot" onclick="currentSlide(5)"></span>
+                    </div>
+                </div>
             </div>
+
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>Our Professional Services</h2>
-                <p>Comprehensive IT solutions for individuals and businesses</p>
+                <h2 data-translate="services.title">Nos Services Professionnels</h2>
+                <p data-translate="services.subtitle">Solutions IT complètes pour particuliers et entreprises</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
@@ -81,8 +125,9 @@
                         <i class="fab fa-windows"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Windows 10/11 Activation</h3>
-                        <p>Genuine Windows activation with lifetime validity and full Microsoft support</p>
+                        <h3 data-translate="services.windows.title">Activation Windows 10/11</h3>
+                        <p data-translate="services.windows.desc">Activation Windows authentique avec validité à vie et
+                            support Microsoft complet</p>
                     </div>
                     <a href="detail.html?service=windows-activation" class="service-link"></a>
                 </div>
@@ -91,8 +136,9 @@
                         <i class="fas fa-file-alt"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Office 365/2016/2019/2021 Activation</h3>
-                        <p>Complete Microsoft Office suite activation with all features unlocked</p>
+                        <h3 data-translate="services.office.title">Office 365/2016/2019/2021 Activation</h3>
+                        <p data-translate="services.office.desc">Complete Microsoft Office suite activation with all
+                            features unlocked</p>
                     </div>
                     <a href="detail.html?service=office-activation" class="service-link"></a>
                 </div>
@@ -101,8 +147,9 @@
                         <i class="fas fa-redo-alt"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Full System Reinstallation</h3>
-                        <p>Clean Windows installation with all drivers and essential software</p>
+                        <h3 data-translate="services.reinstall.title">Full System Reinstallation</h3>
+                        <p data-translate="services.reinstall.desc">Clean Windows installation with all drivers and
+                            essential software</p>
                     </div>
                     <a href="detail.html?service=system-reinstall" class="service-link"></a>
                 </div>
@@ -111,8 +158,8 @@
                         <i class="fas fa-tools"></i>
                     </div>
                     <div class="service-content">
-                        <h3>System Repair</h3>
-                        <p>Fix Windows errors, crashes, and performance issues</p>
+                        <h3 data-translate="services.repair.title">System Repair</h3>
+                        <p data-translate="services.repair.desc">Fix Windows errors, crashes, and performance issues</p>
                     </div>
                     <a href="detail.html?service=system-repair" class="service-link"></a>
                 </div>
@@ -121,8 +168,9 @@
                         <i class="fas fa-tachometer-alt"></i>
                     </div>
                     <div class="service-content">
-                        <h3>PC Optimization</h3>
-                        <p>Speed up your computer and improve overall performance</p>
+                        <h3 data-translate="services.optimization.title">PC Optimization</h3>
+                        <p data-translate="services.optimization.desc">Speed up your computer and improve overall
+                            performance</p>
                     </div>
                     <a href="detail.html?service=pc-optimization" class="service-link"></a>
                 </div>
@@ -131,8 +179,9 @@
                         <i class="fas fa-shield-virus"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Virus Removal</h3>
-                        <p>Complete malware removal and system security enhancement</p>
+                        <h3 data-translate="services.virus.title">Virus Removal</h3>
+                        <p data-translate="services.virus.desc">Complete malware removal and system security enhancement
+                        </p>
                     </div>
                     <a href="detail.html?service=virus-removal" class="service-link"></a>
                 </div>
@@ -141,8 +190,8 @@
                         <i class="fas fa-database"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Data Backup & Recovery</h3>
-                        <p>Secure data backup and professional recovery services</p>
+                        <h3 data-translate="services.data.title">Data Backup & Recovery</h3>
+                        <p data-translate="services.data.desc">Secure data backup and professional recovery services</p>
                     </div>
                     <a href="detail.html?service=data-recovery" class="service-link"></a>
                 </div>
@@ -151,8 +200,8 @@
                         <i class="fas fa-download"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Driver & Software Installation</h3>
-                        <p>Latest drivers and essential software installation</p>
+                        <h3 data-translate="services.drivers.title">Driver & Software Installation</h3>
+                        <p data-translate="services.drivers.desc">Latest drivers and essential software installation</p>
                     </div>
                     <a href="detail.html?service=driver-installation" class="service-link"></a>
                 </div>
@@ -161,27 +210,20 @@
                         <i class="fas fa-headset"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Remote Assistance</h3>
-                        <p>Professional remote support for immediate problem resolution</p>
+                        <h3 data-translate="services.remote.title">Remote Assistance</h3>
+                        <p data-translate="services.remote.desc">Professional remote support for immediate problem
+                            resolution</p>
                     </div>
                     <a href="detail.html?service=remote-support" class="service-link"></a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="service-content">
-                        <h3>Basic IT Training</h3>
-                        <p>Learn essential computer skills and software usage</p>
-                    </div>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-user-cog"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Microsoft Account Setup</h3>
-                        <p>Complete Microsoft account configuration and synchronization</p>
+                        <h3 data-translate="services.account.title">Microsoft Account Setup</h3>
+                        <p data-translate="services.account.desc">Complete Microsoft account configuration and
+                            synchronization</p>
                     </div>
                 </div>
                 <div class="service-card">
@@ -189,8 +231,9 @@
                         <i class="fas fa-compact-disc"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Secure ISO Download</h3>
-                        <p>Official Windows and Office ISO files from Microsoft servers</p>
+                        <h3 data-translate="services.iso.title">Secure ISO Download</h3>
+                        <p data-translate="services.iso.desc">Official Windows and Office ISO files from Microsoft
+                            servers</p>
                     </div>
                 </div>
                 <div class="service-card">
@@ -198,8 +241,9 @@
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Antivirus Setup</h3>
-                        <p>Professional antivirus installation and configuration</p>
+                        <h3 data-translate="services.antivirus.title">Antivirus Setup</h3>
+                        <p data-translate="services.antivirus.desc">Professional antivirus installation and
+                            configuration</p>
                     </div>
                 </div>
                 <div class="service-card">
@@ -207,85 +251,131 @@
                         <i class="fas fa-building"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Bulk Activation for Businesses</h3>
-                        <p>Enterprise-grade activation solutions for organizations</p>
+                        <h3 data-translate="services.bulk.title">Bulk Activation for Businesses</h3>
+                        <p data-translate="services.bulk.desc">Enterprise-grade activation solutions for organizations
+                        </p>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-cogs"></i>
+                        <i class="fas fa-gamepad"></i> <!-- Icône pour les jeux vidéo -->
                     </div>
                     <div class="service-content">
-                        <h3>IT Maintenance Contracts</h3>
-                        <p>Ongoing IT support and maintenance for businesses</p>
+                        <h3 data-translate="services.games.title">Vente & Installation de Jeux Vidéo</h3>
+                        <p data-translate="services.games.desc">
+                            Large choix de jeux pour toutes plateformes, installation et configuration incluses.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
         <div class="container">
             <div class="section-header">
-                <h2>Transparent Pricing</h2>
-                <p>Affordable rates for professional IT services</p>
+                <h2 data-translate="faq.title">Frequently Asked Questions</h2>
+                <p data-translate="faq.subtitle">Find answers to common questions about our services</p>
             </div>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Windows 10 Pro Activation</h3>
-                        <div class="price">$5</div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q1">Is Windows activation permanent?</h3>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Lifetime validity</li>
-                        <li><i class="fas fa-check"></i> Genuine license</li>
-                        <li><i class="fas fa-check"></i> Remote activation</li>
-                        <li><i class="fas fa-check"></i> 24/7 support</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a1">Yes, our Windows activation is permanent and lifetime valid. Once
+                            activated, your Windows
+                            will remain genuine forever with full Microsoft support and updates. We use only legitimate
+                            licenses that don't expire.</p>
+                    </div>
                 </div>
-                <div class="pricing-card featured">
-                    <div class="pricing-badge">Most Popular</div>
-                    <div class="pricing-header">
-                        <h3>Reinstall + Activation</h3>
-                        <div class="price">$10</div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q2">How long does the activation process take?</h3>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Clean Windows install</li>
-                        <li><i class="fas fa-check"></i> All drivers included</li>
-                        <li><i class="fas fa-check"></i> Essential software</li>
-                        <li><i class="fas fa-check"></i> Full activation</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a2">Most activations are completed within 15-30 minutes via remote
+                            access. For system
+                            reinstallation services, it typically takes 2-4 hours depending on your system
+                            specifications and internet speed.</p>
+                    </div>
                 </div>
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Office 365 Activation</h3>
-                        <div class="price">$8</div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q3">Do you provide support after activation?</h3>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Full Office suite</li>
-                        <li><i class="fas fa-check"></i> 1-year validity</li>
-                        <li><i class="fas fa-check"></i> All updates included</li>
-                        <li><i class="fas fa-check"></i> Expert support</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a3">Absolutely! We provide 24/7 technical support for all our services.
+                            If you encounter any
+                            issues with your activation or need assistance, our team is always available to help you.
+                        </p>
+                    </div>
                 </div>
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Complete PC Setup</h3>
-                        <div class="price">$25</div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q4">Is remote access safe?</h3>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Windows + Office activation</li>
-                        <li><i class="fas fa-check"></i> PC optimization</li>
-                        <li><i class="fas fa-check"></i> Antivirus setup</li>
-                        <li><i class="fas fa-check"></i> Data backup</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a4">Yes, our remote access is completely secure. We use encrypted
+                            connections, you maintain full
+                            control of your computer, and we remove all remote software after the session. Your privacy
+                            and security are our top priorities.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q5">What payment methods do you accept?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a5">We accept various payment methods including PayPal, credit/debit
+                            cards, bank transfers, and
+                            cryptocurrency. Payment is processed securely and we provide receipts for all transactions.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q6">Can you help with business/enterprise licenses?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a6">Yes, we offer bulk activation services for businesses and
+                            enterprises. We can handle multiple
+                            computers simultaneously and provide volume licensing solutions with special pricing for
+                            organizations.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q7">What if my computer crashes after activation?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a7">Our activation survives system crashes and hardware changes. If you
+                            need to reinstall
+                            Windows, contact us and we'll reactivate your system at no additional cost. Our lifetime
+                            support covers these scenarios.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="faq.q8">Do you work on weekends and holidays?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="faq.a8">Yes, we provide 24/7 support including weekends and holidays. Our
+                            remote assistance service
+                            is available anytime you need help. Simply contact us via WhatsApp, phone, or email.</p>
+                    </div>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -293,76 +383,127 @@
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2>What Our Clients Say</h2>
-                <p>Trusted by thousands of satisfied customers</p>
+                <h2 data-translate="testimonials.title">What Our Clients Say</h2>
+                <p data-translate="testimonials.subtitle">Trusted by thousands of satisfied customers</p>
             </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+            <div class="testimonials-slider-container">
+                <div class="testimonials-slider" id="testimonialsSlider">
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.1.text">"Excellent service! My Windows was activated in
+                                minutes and has been working perfectly for months. Professional and reliable."</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.1.author">Julien</strong>
+                                <span data-translate="testimonials.1.role">Small Business Owner</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.2.text">"Fast, affordable, and genuine. Got my Office 365
+                                activated instantly. The remote support was amazing. Highly recommend!"</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.2.author">Laurent Dupont</strong>
+                                <span data-translate="testimonials.2.role">Freelancer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.3.text">"They completely reinstalled my system and activated
+                                everything. My PC runs like new! Professional service at great prices."</p>
+                            <div class="testimonial-author">
+                                <strong>Gaston delimond</strong>
+                                <span data-translate="testimonials.3.role">IT Manager</span>
+                            </div>
+                        </div>
                     </div>
-                    <p>"Excellent service! My Windows was activated in minutes and has been working perfectly for
-                        months. Professional and reliable."</p>
-                    <div class="testimonial-author">
-                        <strong>Sarah Johnson</strong>
-                        <span>Small Business Owner</span>
+
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.4.text">"Outstanding technical support! They solved my
+                                complex system issues remotely in under an hour. Truly professional team."</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.4.author">Emma Wilson</strong>
+                                <span data-translate="testimonials.4.role">Graphic Designer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.5.text">"Best IT service I've ever used. Quick response,
+                                fair pricing, and genuine software. My business computers are running perfectly."</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.5.author">James Thompson</strong>
+                                <span data-translate="testimonials.5.role">Restaurant Owner</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p data-translate="testimonials.6.text">"Recovered all my important files after a system
+                                crash. Their data recovery service saved my business. Highly recommended!"</p>
+                            <div class="testimonial-author">
+                                <strong data-translate="testimonials.6.author">Lisa Martinez</strong>
+                                <span data-translate="testimonials.6.role">Consultant</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>"Fast, affordable, and genuine. Got my Office 365 activated instantly. The remote support was
-                        amazing. Highly recommend!"</p>
-                    <div class="testimonial-author">
-                        <strong>Michael Chen</strong>
-                        <span>Freelancer</span>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>"They completely reinstalled my system and activated everything. My PC runs like new!
-                        Professional service at great prices."</p>
-                    <div class="testimonial-author">
-                        <strong>David Rodriguez</strong>
-                        <span>IT Manager</span>
+
+                <div class="testimonials-nav">
+                    <div class="testimonials-dots" id="testimonialsDots">
+                        <span class="testimonials-dot active" onclick="goToTestimonialSlide(0)"></span>
+                        <span class="testimonials-dot" onclick="goToTestimonialSlide(1)"></span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2>Get in Touch</h2>
-                <p>Ready to activate your Windows or Office? Contact us now!</p>
+                <h2 data-translate="contact.title">Get in Touch</h2>
+                <p data-translate="contact.subtitle">Ready to activate your Windows or Office? Contact us now!</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
                         <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-translate="contact.address.title">Address</h4>
+                            <p>123 Tech Street, Suite 456<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
                             <i class="fas fa-phone"></i>
                         </div>
                         <div class="contact-details">
-                            <h4>Phone Support</h4>
+                            <h4 data-translate="contact.phone.title">Phone Support</h4>
                             <p>+1 (555) 123-4567</p>
-                            <small>Available 24/7</small>
+                            <small data-translate="contact.phone.available">Available 24/7</small>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -370,9 +511,10 @@
                             <i class="fab fa-whatsapp"></i>
                         </div>
                         <div class="contact-details">
-                            <h4>WhatsApp</h4>
+                            <h4 data-translate="contact.whatsapp.title">WhatsApp</h4>
                             <p>+1 (555) 123-4567</p>
-                            <a href="https://wa.me/15551234567" class="whatsapp-link">Chat Now</a>
+                            <a href="https://wa.me/15551234567" class="whatsapp-link"
+                                data-translate="contact.whatsapp.chat">Chat Now</a>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -380,9 +522,9 @@
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="contact-details">
-                            <h4>Email</h4>
+                            <h4 data-translate="contact.email.title">Email</h4>
                             <p>support@winactivatepro.com</p>
-                            <small>We reply within 1 hour</small>
+                            <small data-translate="contact.email.reply">We reply within 1 hour</small>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -390,49 +532,60 @@
                             <i class="fas fa-clock"></i>
                         </div>
                         <div class="contact-details">
-                            <h4>Working Hours</h4>
-                            <p>24/7 Support Available</p>
-                            <small>Remote assistance anytime</small>
+                            <h4 data-translate="contact.hours.title">Working Hours</h4>
+                            <p data-translate="contact.hours.text">24/7 Support Available</p>
+                            <small data-translate="contact.hours.remote">Remote assistance anytime</small>
                         </div>
                     </div>
                 </div>
+
                 <div class="contact-form">
                     <form id="contactForm">
                         <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <label for="name" data-translate="contact.form.name">Full Name</label>
+                            <input type="text" placeholder="Ex: Gaston" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="email" data-translate="contact.form.email">Email Address</label>
+                            <input type="email" placeholder="example@domain" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                            <label for="phone" data-translate="contact.form.phone">Phone Number</label>
+                            <input type="tel" placeholder="+243..." id="phone" name="phone">
                         </div>
                         <div class="form-group">
-                            <label for="service">Service Needed</label>
+                            <label for="service" data-translate="contact.form.service">Service Needed</label>
                             <select id="service" name="service" required>
-                                <option value="">Select a service</option>
-                                <option value="windows-activation">Windows Activation</option>
-                                <option value="office-activation">Office Activation</option>
-                                <option value="system-reinstall">System Reinstallation</option>
-                                <option value="pc-optimization">PC Optimization</option>
-                                <option value="virus-removal">Virus Removal</option>
-                                <option value="data-recovery">Data Recovery</option>
-                                <option value="remote-support">Remote Support</option>
-                                <option value="other">Other</option>
+                                <option value="" data-translate="contact.form.service.select">Select a service</option>
+                                <option value="windows-activation" data-translate="contact.form.service.windows">Windows
+                                    Activation</option>
+                                <option value="office-activation" data-translate="contact.form.service.office">Office
+                                    Activation</option>
+                                <option value="system-reinstall" data-translate="contact.form.service.reinstall">System
+                                    Reinstallation</option>
+                                <option value="pc-optimization" data-translate="contact.form.service.optimization">PC
+                                    Optimization</option>
+                                <option value="virus-removal" data-translate="contact.form.service.virus">Virus Removal
+                                </option>
+                                <option value="data-recovery" data-translate="contact.form.service.data">Data Recovery
+                                </option>
+                                <option value="remote-support" data-translate="contact.form.service.remote">Remote
+                                    Support</option>
+                                <option value="other" data-translate="contact.form.service.other">Other</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
+                            <label for="message" data-translate="contact.form.message">Message</label>
                             <textarea id="message" name="message" rows="4"
+                                data-translate="contact.form.message.placeholder"
                                 placeholder="Describe your issue or requirements..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary" data-translate="contact.form.submit">Send
+                            Message</button>
                     </form>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -442,46 +595,57 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <i class="fas fa-shield-alt"></i>
+                        <i class="fab fa-windows"></i>
                         <span>WinActivate Pro</span>
                     </div>
-                    <p>Professional Windows and Office activation services with lifetime support. Trusted by thousands
-                        of satisfied customers worldwide.</p>
+                    <p data-translate="footer.description">
+                        Professional Windows and Office activation services with lifetime support. Trusted by thousands
+                        of satisfied customers worldwide.
+                    </p>
                 </div>
+
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
+                    <h4 data-translate="footer.links">Quick Links</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#faq">Faqs</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-section">
-                    <h4>Services</h4>
+                    <h4 data-translate="footer.services">Services</h4>
                     <ul>
-                        <li><a href="#services">Windows Activation</a></li>
-                        <li><a href="#services">Office Activation</a></li>
-                        <li><a href="#services">PC Repair</a></li>
-                        <li><a href="#services">Remote Support</a></li>
+                        <li><a href="#services" data-translate="footer.service.windows">Windows Activation</a></li>
+                        <li><a href="#services" data-translate="footer.service.office">Office Activation</a></li>
+                        <li><a href="#services" data-translate="footer.service.repair">PC Repair</a></li>
+                        <li><a href="#services" data-translate="footer.service.remote">Remote Support</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-section">
-                    <h4>Contact Info</h4>
+                    <h4 data-translate="footer.contact">Contact Info</h4>
                     <ul>
-                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
-                        <li><i class="fas fa-envelope"></i> support@winactivatepro.com</li>
-                        <li><i class="fas fa-clock"></i> 24/7 Support</li>
+                        <li><i class="fas fa-phone"></i> <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li><i class="fas fa-envelope"></i> <span>support@winactivepro.com</span></li>
+                        <li><i class="fas fa-clock"></i> <span data-translate="footer.hours">24/7 Support</span></li>
                     </ul>
                 </div>
             </div>
+
             <div class="footer-bottom">
-                <p>&copy; 2024 WinActivate Pro. All rights reserved. | Privacy Policy | Terms of Service</p>
+                <p data-translate="footer.copyright">
+                    © 2024 WinActivate Pro. All rights reserved. | Privacy Policy | Terms of Service
+                </p>
             </div>
         </div>
     </footer>
 
+
     <script src="js/app.js"></script>
+    <script src="js/translations.js"></script>
 </body>
 
 </html>

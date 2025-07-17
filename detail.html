@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service Details - WinActivate Pro</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/detail.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -16,20 +18,29 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <i class="fas fa-shield-alt"></i>
+                    <i class="fab fa-windows"></i>
                     <span>WinActivate Pro</span>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#pricing">Pricing</a></li>
-                    <li><a href="index.html#testimonials">Reviews</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html" data-translate="nav.home">Accueil</a></li>
+                    <li><a href="index.html#services" data-translate="nav.services">Services</a></li>
+                    <li><a href="index.html#faq" data-translate="nav.faq">FAQ</a></li>
+                    <li><a href="index.html#testimonials" data-translate="nav.testimonials">Avis</a></li>
+                    <li><a href="index.html#contact" data-translate="nav.contact">Contact</a></li>
                 </ul>
-                <div class="nav-toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                <div class="nav-right">
+                    <div class="language-selector">
+                        <select id="languageSelect">
+                            <option value="fr">🇫🇷 FR</option>
+                            <option value="en">🇬🇧 EN</option>
+                            <option value="nl">🇳🇱 NL</option>
+                        </select>
+                    </div>
+                    <div class="nav-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -45,10 +56,10 @@
                 <h1 id="service-title">Windows 10/11 Activation</h1>
                 <p id="service-subtitle">Professional Windows activation with lifetime validity and full Microsoft
                     support</p>
-                <div class="service-price">
+                <!-- <div class="service-price">
                     <span class="price-label">Starting at</span>
                     <span class="price-value" id="service-price">$5</span>
-                </div>
+                </div> -->
                 <a href="#contact" class="btn btn-primary">Get This Service</a>
             </div>
         </div>
@@ -148,7 +159,7 @@
                         </div>
                     </div>
 
-                    <div class="related-services">
+                    <!-- <div class="related-services">
                         <h3>Related Services</h3>
                         <div class="related-service-item" onclick="loadService('office-activation')">
                             <i class="fas fa-file-alt"></i>
@@ -171,7 +182,7 @@
                                 <span>From $15</span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -186,55 +197,22 @@
             </div>
             <div class="contact-detail-content">
                 <div class="contact-form-section">
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fab fa-whatsapp"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>WhatsApp</h4>
-                                <p>+1 (555) 123-4567</p>
-                                <a href="https://wa.me/15551234567" class="whatsapp-link">Chat Now</a>
-                            </div>
-                        </div>
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Phone Support</h4>
-                                <p>+1 (555) 123-4567</p>
-                                <small>Available 24/7</small>
-                            </div>
-                        </div>
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Email</h4>
-                                <p>support@winactivatepro.com</p>
-                                <small>We reply within 1 hour</small>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="contact-form">
                         <h3>Send us a Message</h3>
                         <form id="contactForm">
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="name">Full Name</label>
-                                    <input type="text" id="name" name="name" required>
+                                    <input type="text" id="name" placeholder="ex: Gaston " name="name" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Email Address</label>
-                                    <input type="email" id="email" name="email" required>
+                                    <input type="email" placeholder="example@domain" id="email" name="email" required>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone">
+                                <input type="tel" placeholder="ex: +(33)xxx" id="phone" name="phone">
                             </div>
                             <div class="form-group">
                                 <label for="service">Service Needed</label>
@@ -269,19 +247,44 @@
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
-                    <div class="location-info">
-                        <div class="location-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
                                 <h4>Address</h4>
                                 <p>123 Tech Street, Suite 456<br>New York, NY 10001</p>
                             </div>
                         </div>
-                        <div class="location-item">
-                            <i class="fas fa-clock"></i>
-                            <div>
-                                <h4>Working Hours</h4>
-                                <p>24/7 Remote Support<br>Office: Mon-Fri 9AM-6PM</p>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <p>+1 (555) 123-4567</p>
+                                <a href="https://wa.me/15551234567" class="whatsapp-link">Chat Now</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone Support</h4>
+                                <p>+1 (555) 123-4567</p>
+                                <small>Available 24/7</small>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>support@ssdpro.com</p>
+                                <small>We reply within 1 hour</small>
                             </div>
                         </div>
                     </div>
@@ -296,7 +299,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <i class="fas fa-shield-alt"></i>
+                        <i class="fab fa-windows"></i>
                         <span>WinActivate Pro</span>
                     </div>
                     <p>Professional Windows and Office activation services with lifetime support.</p>
@@ -336,6 +339,7 @@
 
     <script src="js/app.js"></script>
     <script src="js/detail.js"></script>
+    <script src="js/translations.js"></script>
 </body>
 
 </html>
