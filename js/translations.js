@@ -198,6 +198,10 @@ const translations = {
     "footer.description":
       "Services d'activation professionnels Windows et Office avec support à vie. Approuvé par des milliers de clients satisfaits dans le monde entier.",
     "footer.links": "Liens Rapides",
+    "footer.link.home": "Accueil",
+    "footer.link.services": "Services",
+    "footer.link.faq": "FAQ",
+    "footer.link.contact": "Contact",
     "footer.services": "Services",
     "footer.service.windows": "Activation Windows",
     "footer.service.office": "Activation Office",
@@ -207,56 +211,6 @@ const translations = {
     "footer.hours": "Support 24/7",
     "footer.copyright":
       "© 2024 WinActivate Pro. Tous droits réservés. | Politique de Confidentialité | Conditions de Service",
-  },
-
-  // Detail page translations
-  detail: {
-    "detail.nav.home": "Accueil",
-    "detail.nav.services": "Services",
-    "detail.nav.pricing": "Tarifs",
-    "detail.nav.testimonials": "Avis",
-    "detail.nav.contact": "Contact",
-
-    "detail.overview": "Aperçu du Service",
-    "detail.whats.included": "Ce qui est inclus :",
-    "detail.process": "Processus :",
-    "detail.requirements": "Exigences :",
-    "detail.why.choose": "Pourquoi choisir notre service ?",
-    "detail.service.info": "Informations sur le Service",
-    "detail.duration": "Durée :",
-    "detail.delivery": "Livraison :",
-    "detail.warranty": "Garantie :",
-    "detail.support": "Support :",
-    "detail.remote.service": "Service à distance",
-    "detail.available.247": "24/7 disponible",
-    "detail.related.services": "Services Connexes",
-    "detail.ready.started": "Prêt à Commencer ?",
-    "detail.contact.subtitle":
-      "Contactez-nous maintenant pour activer votre Windows ou obtenir tout autre service",
-    "detail.get.service": "Obtenir ce Service",
-
-    // Contact form
-    "detail.whatsapp": "WhatsApp",
-    "detail.chat.now": "Chatter Maintenant",
-    "detail.phone.support": "Support Téléphonique",
-    "detail.email": "Email",
-    "detail.reply.hour": "Nous répondons en 1 heure",
-    "detail.send.message": "Envoyez-nous un Message",
-    "detail.full.name": "Nom Complet",
-    "detail.email.address": "Adresse Email",
-    "detail.phone.number": "Numéro de Téléphone",
-    "detail.service.needed": "Service Requis",
-    "detail.select.service": "Sélectionnez un service",
-    "detail.message": "Message",
-    "detail.describe.requirements": "Décrivez vos exigences...",
-    "detail.send.message.btn": "Envoyer Message",
-
-    // Location
-    "detail.our.location": "Notre Emplacement",
-    "detail.address": "Adresse",
-    "detail.working.hours": "Heures d'Ouverture",
-    "detail.remote.support.247": "Support à Distance 24/7",
-    "detail.office.hours": "Bureau : Lun-Ven 9h-18h",
   },
 
   en: {
@@ -454,6 +408,10 @@ const translations = {
     "footer.description":
       "Professional Windows and Office activation services with lifetime support. Trusted by thousands of satisfied customers worldwide.",
     "footer.links": "Quick Links",
+    "footer.link.home": "Home",
+    "footer.link.services": "Services",
+    "footer.link.faq": "FAQs",
+    "footer.link.contact": "Contact",
     "footer.services": "Services",
     "footer.contact": "Contact Info",
     "footer.service.windows": "Windows Activation",
@@ -463,56 +421,6 @@ const translations = {
     "footer.hours": "24/7 Support",
     "footer.copyright":
       "© 2024 WinActivate Pro. All rights reserved. | Privacy Policy | Terms of Service",
-  },
-
-  // Detail page translations
-  detail: {
-    "detail.nav.home": "Home",
-    "detail.nav.services": "Services",
-    "detail.nav.pricing": "Pricing",
-    "detail.nav.testimonials": "Reviews",
-    "detail.nav.contact": "Contact",
-
-    "detail.overview": "Service Overview",
-    "detail.whats.included": "What's Included:",
-    "detail.process": "Process:",
-    "detail.requirements": "Requirements:",
-    "detail.why.choose": "Why Choose Our Service?",
-    "detail.service.info": "Service Information",
-    "detail.duration": "Duration:",
-    "detail.delivery": "Delivery:",
-    "detail.warranty": "Warranty:",
-    "detail.support": "Support:",
-    "detail.remote.service": "Remote service",
-    "detail.available.247": "24/7 available",
-    "detail.related.services": "Related Services",
-    "detail.ready.started": "Ready to Get Started?",
-    "detail.contact.subtitle":
-      "Contact us now to activate your Windows or get any other service",
-    "detail.get.service": "Get This Service",
-
-    // Contact form
-    "detail.whatsapp": "WhatsApp",
-    "detail.chat.now": "Chat Now",
-    "detail.phone.support": "Phone Support",
-    "detail.email": "Email",
-    "detail.reply.hour": "We reply within 1 hour",
-    "detail.send.message": "Send us a Message",
-    "detail.full.name": "Full Name",
-    "detail.email.address": "Email Address",
-    "detail.phone.number": "Phone Number",
-    "detail.service.needed": "Service Needed",
-    "detail.select.service": "Select a service",
-    "detail.message": "Message",
-    "detail.describe.requirements": "Describe your requirements...",
-    "detail.send.message.btn": "Send Message",
-
-    // Location
-    "detail.our.location": "Our Location",
-    "detail.address": "Address",
-    "detail.working.hours": "Working Hours",
-    "detail.remote.support.247": "24/7 Remote Support",
-    "detail.office.hours": "Office: Mon-Fri 9AM-6PM",
   },
 
   nl: {
@@ -709,7 +617,11 @@ const translations = {
     "footer.description":
       "Professionele Windows en Office activatiediensten met levenslange ondersteuning. Vertrouwd door duizenden tevreden klanten wereldwijd.",
     "footer.links": "Snelle Links",
-    "footer.services": "Diensten",
+    "footer.home": "Startpagina",
+    "footer.link.services": "Diensten",
+    "footer.link.faq": "Veelgestelde vragen",
+    "footer.link.contact": "Contact",
+    "footer.link.services": "Diensten",
     "footer.contact": "Contact Info",
     "footer.service.windows": "Windows Activering",
     "footer.service.office": "Office Activering",
@@ -718,56 +630,6 @@ const translations = {
     "footer.hours": "24/7 Ondersteuning",
     "footer.copyright":
       "© 2024 WinActivate Pro. Alle rechten voorbehouden. | Privacybeleid | Servicevoorwaarden",
-  },
-
-  // Detail page translations
-  detail: {
-    "detail.nav.home": "Home",
-    "detail.nav.services": "Diensten",
-    "detail.nav.pricing": "Prijzen",
-    "detail.nav.testimonials": "Reviews",
-    "detail.nav.contact": "Contact",
-
-    "detail.overview": "Service Overzicht",
-    "detail.whats.included": "Wat is inbegrepen:",
-    "detail.process": "Proces:",
-    "detail.requirements": "Vereisten:",
-    "detail.why.choose": "Waarom onze service kiezen?",
-    "detail.service.info": "Service Informatie",
-    "detail.duration": "Duur:",
-    "detail.delivery": "Levering:",
-    "detail.warranty": "Garantie:",
-    "detail.support": "Ondersteuning:",
-    "detail.remote.service": "Externe service",
-    "detail.available.247": "24/7 beschikbaar",
-    "detail.related.services": "Gerelateerde Services",
-    "detail.ready.started": "Klaar om te Beginnen?",
-    "detail.contact.subtitle":
-      "Neem nu contact met ons op om uw Windows te activeren of een andere service te krijgen",
-    "detail.get.service": "Krijg deze Service",
-
-    // Contact form
-    "detail.whatsapp": "WhatsApp",
-    "detail.chat.now": "Chat Nu",
-    "detail.phone.support": "Telefoon Ondersteuning",
-    "detail.email": "Email",
-    "detail.reply.hour": "We reageren binnen 1 uur",
-    "detail.send.message": "Stuur ons een Bericht",
-    "detail.full.name": "Volledige Naam",
-    "detail.email.address": "Email Adres",
-    "detail.phone.number": "Telefoonnummer",
-    "detail.service.needed": "Benodigde Service",
-    "detail.select.service": "Selecteer een service",
-    "detail.message": "Bericht",
-    "detail.describe.requirements": "Beschrijf uw vereisten...",
-    "detail.send.message.btn": "Verstuur Bericht",
-
-    // Location
-    "detail.our.location": "Onze Locatie",
-    "detail.address": "Adres",
-    "detail.working.hours": "Werkuren",
-    "detail.remote.support.247": "24/7 Externe Ondersteuning",
-    "detail.office.hours": "Kantoor: Ma-Vr 9:00-18:00",
   },
 };
 
