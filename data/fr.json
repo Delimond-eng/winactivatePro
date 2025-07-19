@@ -5,8 +5,8 @@
         "title": "Activation de Windows 10/11",
         "subtitle": "Activation authentique avec validité à vie et support Microsoft complet",
         "overview": "Activez votre système Windows avec une licence officielle et permanente. Notre processus d’activation à distance est rapide, sécurisé et vous garantit un système stable, à jour et entièrement fonctionnel. Fini les limitations, les messages d’avertissement ou les paramètres bloqués. Avec notre service, vous profitez d’une expérience Windows fluide, conforme et sans tracas.",
-        "duration": "15-30 minutes",
-        "warranty": "Lifetime",
+        "duration": "15 à 30 minutes",
+        "warranty": "À vie",
         "included": [
             "Licence officielle Windows 10/11 Pro",
             "Activation à vie — sans expiration",
@@ -35,11 +35,13 @@
         ]
     },
     {
-        "icon":"fas fa-file-alt",
-        "slug":"activation-office-365-2016-2019-2021",
+        "icon": "fas fa-file-alt",
+        "slug": "activation-office-365-2016-2019-2021",
         "title": "Activation Office 365/2016/2019/2021",
         "subtitle": "Activation complète de la suite Microsoft Office avec toutes les fonctionnalités débloquées",
         "overview": "Améliorez votre productivité grâce à une suite Microsoft Office entièrement activée. Que vous choisissiez Office 365, 2016, 2019 ou 2021, nous vous garantissons une activation fluide, authentique et compatible avec Windows comme macOS. Idéal pour les étudiants, indépendants, professionnels et entreprises — accédez à Word, Excel, PowerPoint, Outlook et plus encore, sans aucune limitation.",
+        "duration": "20 à 40 minutes",
+        "warranty": "À vie",
         "included": [
             "Installation du logiciel Office",
             "Activation avec une licence authentique (Office 365/2016/2019/2021)",
@@ -72,6 +74,8 @@
         "title": "Réinstallation complète du système",
         "subtitle": "Installation propre de Windows avec tous les pilotes et logiciels essentiels",
         "overview": "Offrez un nouveau départ à votre ordinateur avec une réinstallation complète du système. Nous formatons entièrement votre PC, installons la dernière version de Windows, tous les pilotes nécessaires, et les logiciels essentiels pour une performance optimale. Idéal si votre machine est lente, infectée ou instable. Vous repartirez avec un système propre, rapide et prêt à l'emploi.",
+        "duration": "2 heures",
+        "warranty": "15 jours",
         "included": [
             "Formatage complet et installation propre de Windows",
             "Installation des pilotes les plus récents",
@@ -96,6 +100,8 @@
         "title": "Réparation du Système",
         "subtitle": "Correction des erreurs Windows, des plantages et des lenteurs",
         "overview": "Votre ordinateur plante, ralentit ou ne démarre plus correctement ? Notre service de Réparation du Système est conçu pour détecter et résoudre les problèmes critiques : erreurs système, conflits de registre, pilotes défectueux, démarrages lents, etc. Nous redonnons vie à votre PC, sans perte de données, pour un fonctionnement fluide, rapide et stable.",
+        "duration": "1 à 3 heures",
+        "warranty": "7 jours",
         "included": [
             "Diagnostic complet du système",
             "Correction des erreurs système et du registre Windows",
@@ -119,6 +125,8 @@
         "title": "Optimisation du PC",
         "subtitle": "Accélérez votre ordinateur et améliorez ses performances globales",
         "overview": "Votre ordinateur est lent ou peu réactif ? Grâce à notre service d’Optimisation du PC, nous nettoyons en profondeur votre système, supprimons les fichiers inutiles et optimisons les paramètres pour redonner de la vitesse et de la fluidité à votre machine. Démarrages plus rapides, navigation fluide, meilleure réactivité — idéal pour les utilisateurs quotidiens, les gamers ou les professionnels.",
+        "duration": "1 à 3 heures",
+        "warranty": "7 jours",
         "included": [
             "Nettoyage des programmes au démarrage",
             "Suppression des logiciels inutiles et encombrants",
@@ -141,6 +149,8 @@
         "title": "Suppression de Virus",
         "subtitle": "Élimination complète des malwares et renforcement de la sécurité système",
         "overview": "Vous pensez que votre ordinateur est infecté par un virus, un malware ou un logiciel espion ? Notre service de suppression de virus scanne en profondeur votre système, élimine toutes les menaces et sécurise votre appareil contre les futures attaques. Nous mettons à jour vos pilotes, installons des outils de sécurité et veillons à ce que votre PC fonctionne à nouveau proprement, rapidement et en toute sécurité, sans perte de données.",
+        "duration": "30-60 minutes",
+        "warranty": "7 jours",
         "included": [
             "Analyse complète contre les virus et malwares",
             "Suppression des trojans, spyware, ransomware, etc.",
@@ -165,6 +175,8 @@
         "title": "Sauvegarde & Récupération de Données",
         "subtitle": "Sauvegarde sécurisée et service professionnel de récupération",
         "overview": "Vous avez perdu des fichiers importants à cause d’un formatage, d’une panne ou d’une suppression accidentelle ? Notre service de Sauvegarde & Récupération de Données vous permet de récupérer vos fichiers précieux en toute sécurité et de mettre en place un système de sauvegarde fiable pour éviter toute perte future. Documents, photos ou données professionnelles : vos fichiers sont traités avec la plus grande confidentialité.",
+        "duration": "Variable (30 min à 4 h)",
+        "warranty": "N/A",
         "included": [
             "Sauvegarde sur disque externe ou dans le cloud",
             "Récupération depuis des disques endommagés ou formatés",
@@ -188,6 +200,8 @@
         "title": "Installation de Pilotes & Logiciels",
         "subtitle": "Installation des derniers pilotes et logiciels essentiels",
         "overview": "Assurez le bon fonctionnement de votre ordinateur grâce à l’installation de tous les pilotes à jour et des logiciels essentiels. Ce service garantit une compatibilité totale de votre matériel, des performances optimales et un système stable. Que ce soit Office, un antivirus ou un navigateur, nous nous occupons de tout pour vous faire gagner du temps et éviter les soucis techniques.",
+        "duration": "30 à 60 minutes",
+        "warranty": "7 Jours",
         "included": [
             "Mise à jour des pilotes pour tous les composants",
             "Installation des logiciels demandés (Office, navigateurs, antivirus, etc.)",
@@ -211,6 +225,8 @@
         "title": "Assistance à distance",
         "subtitle": "Support à distance professionnel pour une résolution immédiate des problèmes.",
         "overview": "Assistance rapide via Internet avec AnyDesk ou TeamViewer.  Obtenez une assistance technique en temps réel depuis chez vous ou votre bureau. Grâce au partage d’écran, nous diagnostiquons et résolvons vos problèmes à distance — rapidement, en toute sécurité et avec efficacité. Plus besoin de vous déplacer ou d'attendre une intervention sur site.",
+        "duration": "30 min à 1 heure",
+        "warranty": "7 jours",
         "included": [
             "Diagnostic du problème",
             "Assistance en direct",
@@ -232,6 +248,8 @@
         "title": "Configuration de compte Microsoft",
         "subtitle": "Configuration complète du compte Microsoft et synchronisation.",
         "overview": "Assistance à la création, la configuration ou la récupération d’un compte Microsoft. Créez ou récupérez votre compte Microsoft en toute simplicité. Nous vous accompagnons à chaque étape — de la création du compte à la configuration de la sécurité et à la synchronisation. Indispensable pour utiliser OneDrive, Outlook, le Microsoft Store et d'autres services Microsoft.",
+        "duration": "30 minutes",
+        "warranty": "N/A",
         "included": [
             "Création du compte",
             "Configuration de la sécurité",
@@ -252,6 +270,8 @@
         "title": "Téléchargement sécurisé d’ISO",
         "subtitle": "Fichiers ISO officiels de Windows et Office depuis les serveurs Microsoft",
         "overview": "Nous fournissons des liens de téléchargement fiables et sécurisés pour les fichiers ISO officiels. Besoin d’une copie propre de Windows ou Office ? Nous mettons à disposition les fichiers ISO officiels provenant des serveurs Microsoft — sûrs, sans virus et prêts à être installés. Que ce soit pour réinstaller votre système ou créer une clé USB bootable, nous avons ce qu’il vous faut.",
+        "duration": "Instantané",
+        "warranty": "Non applicable",
         "included": [
             "ISO de Windows",
             "ISO d’Office",
@@ -272,6 +292,8 @@
         "title": "Installation d’antivirus",
         "subtitle": "Installation et configuration professionnelle d'antivirus",
         "overview": "Notre service d’installation d’antivirus garantit la protection de votre ordinateur contre les virus, logiciels espions et malwares grâce à des solutions de sécurité reconnues. Protégez votre PC contre les menaces en ligne avec notre configuration professionnelle. Nous installons un antivirus de confiance, configurons la protection en temps réel et planifions les mises à jour. Restez protégé 24h/24, 7j/7.",
+        "duration": "10 à 20 minutes",
+        "warranty": "6 mois",
         "included": [
             "Installation du logiciel antivirus",
             "Configuration de la protection en temps réel",
@@ -303,6 +325,8 @@
         "title": "Activation en masse pour entreprises",
         "subtitle": "Solutions d’activation de niveau entreprise pour les organisations",
         "overview": "Activez plusieurs PC sous Windows ou Office avec des licences officielles, en une seule opération. Nos solutions de licences groupées sont conçues pour les écoles, ONG et entreprises — vous faisant gagner du temps, réduire les coûts et garantir la conformité avec des licences authentiques.",
+        "duration": "Dépend du nombre d'appareils",
+        "warranty": "30 jours",
         "included": [
             "Service d’activation",
             "Assistance à l’installation",
@@ -321,22 +345,24 @@
     {
         "icon": "fas fa-gamepad",
         "slug": "vente-installation-jeux-video",
-        "title": "Video Game Sales & Installation",
-        "subtitle": "Wide selection of games for all platforms, including installation and configuration.",
-        "overview": "We offer a wide range of PC games with installation support and updates. Looking for your favorite games? We provide a large selection of PC games with installation and configuration included. Whether Steam titles or offline versions, we ensure everything runs smoothly — ready to play without hassle.",
+        "title": "Vente et Installation de Jeux Vidéo Xbox",
+        "subtitle": "Large choix de jeux pour toutes plateformes, installation et configuration incluses.",
+        "overview": "Nous proposons une large gamme de jeux PC avec support à l'installation et mises à jour. Vous cherchez vos jeux préférés ? Nous fournissons un grand choix de jeux PC avec installation et configuration incluses. Que ce soit des titres Steam ou des versions hors ligne, nous garantissons un fonctionnement fluide — prêt à jouer sans tracas.",
+        "duration": "Variable",
+        "warranty": "7 jours",
         "included": [
-            "Game sales (Steam, offline installers, etc.)",
+            "Vente de jeux (Steam, installateurs hors ligne, etc.)",
             "Installation",
-            "Crack or license setup if needed"
+            "Configuration de crack ou licence si nécessaire"
         ],
         "process": [
-            "Game selection",
-            "Purchase or activation",
-            "Installation and testing"
+            "Sélection du jeu",
+            "Achat ou activation",
+            "Installation et test"
         ],
         "requirements": [
-            "Sufficient disk space",
-            "Internet connection if online activation is required"
+            "Espace disque suffisant",
+            "Connexion internet si activation en ligne requise"
         ]
     }
 ]

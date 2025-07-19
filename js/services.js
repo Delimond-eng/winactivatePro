@@ -183,8 +183,8 @@ const servicesDataset = [
     slug: "data-backup-recovery",
     hash: "2f37f08d12cb00b23926dcf2ccac0075",
     dataTranslateKey: "services.data.title",
-    duration: "Varies (30 mins to 4 hrs)",
     subtitle: "Secure data backup and professional recovery services",
+    duration: "Varies (30 mins to 4 hrs)",
     warranty: "N/A",
     overview:
       "Recover accidentally deleted or lost data and perform safe backups. Accidentally lost important files? We recover deleted or inaccessible data and create secure backups to prevent future loss. Whether it's photos, documents, or business data — our experts ensure your precious files are safe and restorable.",

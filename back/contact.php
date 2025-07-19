@@ -1,90 +1,104 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
 
-/**
- * This example shows how to handle a simple contact form safely.
- */
-
-//Import PHPMailer class into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-//Don't run this unless we're handling a form submission
-if (array_key_exists('email', $_POST)) {
-    date_default_timezone_set('Etc/UTC');
-    require 'vendor/autoload.php';
-    $isAjax = !empty($_SERVER['HTTP_X_REQUESTED_WITH']) &&
-        strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest';
+// Autoriser les requêtes CORS
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, X-Requested-With");
 
-    //Create a new PHPMailer instance
-    $mail = new PHPMailer();
-    //Send using SMTP to localhost (faster and safer than using mail()) – requires a local mail server
-    //See other examples for how to use a remote server such as gmail
-    $mail->isSMTP();
-    $mail->Host = 'localhost';
-    $mail->Port = 25;
-
-    //Use a fixed address in your own domain as the from address
-    //**DO NOT** use the submitter's address here as it will be forgery
-    //and will cause your messages to fail SPF checks
-    $mail->setFrom('from@example.com', 'First Last');
-    //Choose who the message should be sent to
-    //You don't have to use a <select> like in this example, you can simply use a fixed address
-    //the important thing is *not* to trust an email address submitted from the form directly,
-    //as an attacker can substitute their own and try to use your form to send spam
-    $addresses = [
-        'sales' => 'sales@example.com',
-        'support' => 'support@example.com',
-        'accounts' => 'accounts@example.com',
-    ];
-    //Validate address selection before trying to use it
-    if (array_key_exists('dept', $_POST) && array_key_exists($_POST['dept'], $addresses)) {
-        $mail->addAddress($addresses[$_POST['dept']]);
-    } else {
-        //Fall back to a fixed address if dept selection is invalid or missing
-        $mail->addAddress('support@example.com');
-    }
-    //Put the submitter's address in a reply-to header
-    //This will fail if the address provided is invalid,
-    //in which case we should ignore the whole request
-    if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
-        $mail->Subject = 'PHPMailer contact form';
-        //Keep it simple - don't use HTML
-        $mail->isHTML(false);
-        //Build a simple message body
-        $mail->Body = <<<EOT
-Email: {$_POST['email']}
-Name: {$_POST['name']}
-Message: {$_POST['message']}
-EOT;
-
-        //Send the message, check for errors
-        if (!$mail->send()) {
-            //The reason for failing to send will be in $mail->ErrorInfo
-            //but it's unsafe to display errors directly to users - process the error, log it on your server.
-            if ($isAjax) {
-                http_response_code(500);
-            }
-
-            $response = [
-                "status" => false,
-                "message" => 'Sorry, something went wrong. Please try again later.'
-            ];
-        } else {
-            $response = [
-                "status" => true,
-                "message" => 'Message sent! Thanks for contacting us.'
-            ];
-        }
-    } else {
-        $response = [
-            "status" => false,
-            "message" => 'Invalid email address, message ignored.'
-        ];
-    }
-
-    if ($isAjax) {
-        header('Content-type:application/json;charset=utf-8');
-        echo json_encode($response);
-        exit();
-    }
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    http_response_code(200);
+    exit();
 }
-?>
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    date_default_timezone_set('Etc/UTC');
+
+    $isAjax = !empty($_SERVER['HTTP_X_REQUESTED_WITH']) &&
+              strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest';
+
+    $response = ['status' => false, 'message' => 'Une erreur est survenue.'];
+
+    // Vérification des champs requis
+    if (!isset($_POST['email'], $_POST['name'], $_POST['message'], $_POST['service'])) {
+        $response['message'] = 'Veuillez remplir tous les champs obligatoires.';
+        sendResponse($isAjax, $response);
+    }
+
+    $email    = htmlspecialchars($_POST['email']);
+    $name     = htmlspecialchars($_POST['name']);
+    $message  = nl2br(htmlspecialchars($_POST['message']));
+    $service  = htmlspecialchars($_POST['service']);
+    $phone    = isset($_POST['phone']) ? htmlspecialchars($_POST['phone']) : 'Non précisé';
+
+    $mail = new PHPMailer(true);
+
+    try {
+        // ✅ CONFIGURATION SMTP
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'mamba.salama.s@gmail.com'; // 💡 Remplace par ton adresse Gmail
+        $mail->Password   = 'xvpbgztsusrqseuf'; // 💡 Mot de passe d'application Gmail
+        $mail->SMTPSecure = 'tls';
+        $mail->Port       = 587;
+
+        // Expéditeur et destinataires
+        $mail->setFrom('mamba.salama.s@gmail.com', 'Formulaire de contact');
+        $mail->addAddress('mamba.salama.s@gmail.com');
+
+        // Répondre à l'expéditeur
+        if (!$mail->addReplyTo($email, $name)) {
+            $response['message'] = 'Adresse email invalide.';
+            sendResponse($isAjax, $response);
+        }
+
+        // ✉️ En copie (facultatif)
+        $mail->addCC('gastondelimond@gmail.com', 'Service Client');
+        $mail->addBCC('servicesoffice59@gmail.com', 'Service Client');
+
+        // Sujet
+        $mail->Subject = "Nouveau message de $name via le site";
+
+        // 💡 Format HTML
+        $mail->isHTML(true);
+
+        $mail->Body = <<<HTML
+        <div style="font-family: Arial, sans-serif; color: #333;">
+            <h2 style="color: #0066cc;">Nouveau message depuis le formulaire de contact</h2>
+            <p><strong>Nom :</strong> {$name}</p>
+            <p><strong>Email :</strong> {$email}</p>
+            <p><strong>Téléphone :</strong> {$phone}</p>
+            <p><strong>Service demandé :</strong> {$service}</p>
+            <hr>
+            <p style="margin-top:10px;"><strong>Message :</strong></p>
+            <div style="background:#f9f9f9; padding:10px; border:1px solid #ddd;">
+                {$message}
+            </div>
+            <p style="font-size:12px; color:#999; margin-top:20px;">Ce message a été généré automatiquement depuis votre site.</p>
+        </div>
+        HTML;
+
+        // ✅ Envoi
+        $mail->send();
+
+        $response = [
+            'status' => true,
+            'message' => 'Message envoyé avec succès ! Merci de nous avoir contactés.'
+        ];
+    } catch (Exception $e) {
+        $response['message'] = 'Erreur lors de l\'envoi : ' . $mail->ErrorInfo;
+    }
+
+    sendResponse($isAjax, $response);
+}
+
+// 🔁 Fonction pour répondre proprement
+function sendResponse($isAjax, $response) {
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode($response);
+    exit();
+}

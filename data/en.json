@@ -35,11 +35,13 @@
     ]
   },
   {
-    "icon":"fas fa-file-alt",
-    "slug":"activation-office-365-2016-2019-2021",
+    "icon": "fas fa-file-alt",
+    "slug": "activation-office-365-2016-2019-2021",
     "title": "Office 365/2016/2019/2021 Activation",
     "subtitle": "Complete Microsoft Office suite activation with all features unlocked",
     "overview": "Boost your productivity with a fully activated Microsoft Office suite. Whether you use Office 365, 2016, 2019, or 2021, we ensure a smooth, genuine activation process, compatible with both Windows and macOS. Ideal for students, freelancers, professionals, and businesses — enjoy full access to Word, Excel, PowerPoint, Outlook, and more, without any restrictions.",
+    "duration": "20-40 minutes",
+    "warranty": "Lifetime",
     "included": [
       "Installation of Office software",
       "Genuine license activation (Office 365/2016/2019/2021)",
@@ -72,6 +74,8 @@
     "title": "Full System Reinstallation",
     "subtitle": "Clean Windows installation with all essential drivers and software",
     "overview": "Give your computer a fresh start with a full system wipe and professional reinstallation. We format the entire system, install the latest version of Windows, and configure all drivers and essential tools — ensuring optimal speed, security, and performance. This service is perfect if your PC is slow, infected, or unstable. You’ll get a smooth and clean setup ready for daily use.",
+    "duration": "2 hours",
+    "warranty": "15 days",
     "included": [
       "Full system format and clean Windows installation",
       "Installation of latest device drivers",
@@ -96,6 +100,8 @@
     "title": "System Repair",
     "subtitle": "Fix Windows errors, crashes, and performance issues",
     "overview": "Is your computer crashing, freezing, or running slow? Our System Repair service is designed to diagnose and fix critical issues such as system errors, startup problems, registry conflicts, and driver malfunctions. We bring your PC back to life, improving stability and speed without losing your data. Fast, safe, and reliable repair — so you can get back to work or play.",
+    "duration": "1-3 hours",
+    "warranty": "7 days",
     "included": [
       "Complete system diagnostics",
       "Fixing of Windows registry and system errors",
@@ -119,6 +125,8 @@
     "title": "PC Optimization",
     "subtitle": "Boost your computer's speed and overall performance",
     "overview": "Is your PC running slow or acting sluggish? Our PC Optimization service deep-cleans your system, removes junk files and unnecessary apps, and fine-tunes performance settings to give your computer a new life. Enjoy faster boot times, smoother multitasking, and more available system resources. Perfect for everyday users, gamers, and professionals who want a faster, more responsive machine.",
+    "duration": "1 hours",
+    "warranty": "7 days",
     "included": [
       "Cleanup of startup programs and background tasks",
       "Removal of bloatware and unused software",
@@ -136,11 +144,13 @@
     ]
   },
   {
-   "icon": "fas fa-shield-virus",
-   "slug": "virus-removal",
+    "icon": "fas fa-shield-virus",
+    "slug": "virus-removal",
     "title": "Virus Removal",
     "subtitle": "Complete malware removal and enhanced system security",
     "overview": "Worried your PC is infected with viruses, malware, or spyware? Our Virus Removal service scans your system thoroughly, eliminates malicious software, and strengthens your defenses against future attacks. We update your drivers, install essential tools, and make sure your computer runs clean, secure, and fast again — without losing your personal files.",
+    "duration": "30-60 minutes",
+    "warranty": "7 days",
     "included": [
       "Full malware and virus scan",
       "Removal of trojans, spyware, ransomware, etc.",
@@ -165,6 +175,8 @@
     "title": "Data Backup & Recovery",
     "subtitle": "Secure backups and professional data recovery services",
     "overview": "Lost important files due to system failure, accidental deletion, or drive corruption? Our Data Backup & Recovery service helps you retrieve valuable files safely and set up secure backups to prevent future loss. Whether it's personal documents, photos, or critical business data, we handle your files with the utmost care and confidentiality.",
+    "duration": "Varies (30 mins to 4 hrs)",
+    "warranty": "N/A",
     "included": [
       "Backup to external drive or cloud storage",
       "Data recovery from corrupted or formatted drives",
@@ -188,6 +200,8 @@
     "title": "Driver & Software Installation",
     "subtitle": "Installation of the latest drivers and essential software",
     "overview": "Make sure your computer is running at its best by installing all necessary drivers and essential software. Our expert service ensures full hardware compatibility, up-to-date components, and smooth system performance. Whether you need Office tools, antivirus, or browsers, we take care of everything — saving you time and avoiding technical headaches.",
+    "duration": "30-60 minutes",
+    "warranty": "7 days",
     "included": [
       "Driver updates for all components",
       "Installation of requested software (Office, browsers, antivirus, etc.)",
@@ -211,6 +225,8 @@
     "title": "Remote Assistance",
     "subtitle": "Professional remote support for immediate problem resolution. ",
     "overview": "Fast support over the internet using AnyDesk or TeamViewer. Get real-time tech help from the comfort of your home or office. With our remote assistance, we troubleshoot and resolve your issues live through screen sharing — fast, secure, and efficient. No need to travel or wait for on-site support.",
+    "duration": "30 mins - 1 hr",
+    "warranty": "7 days",
     "included": [
       "Issue diagnosis",
       "Live assistance",
@@ -232,6 +248,8 @@
     "title": "Microsoft Account Setup",
     "subtitle": "Complete Microsoft account setup and synchronization.",
     "overview": "Assistance in creating, configuring, or recovering a Microsoft account. Set up or recover your Microsoft account with ease. We guide you through every step — from account creation to security configuration and synchronization. Essential for using OneDrive, Outlook, Microsoft Store, and other Microsoft services.",
+    "duration": "30 minutes",
+    "warranty": "N/A",
     "included": [
       "Account creation",
       "Security setup",
@@ -252,6 +270,8 @@
     "title": "Secure ISO Download",
     "subtitle": "Official Windows and Office ISO files from Microsoft servers",
     "overview": "We provide trusted and secure download links for official ISO files. Need a clean copy of Windows or Office? We provide official ISO files from Microsoft servers — safe, virus-free, and ready for installation. Whether you're reinstalling your system or creating a bootable USB, we've got you covered.",
+    "duration": "Instant",
+    "warranty": "N/A",
     "included": [
       "Windows ISO",
       "Office ISO",
@@ -272,6 +292,8 @@
     "title": "Antivirus Setup",
     "subtitle": "Professional installation and configuration of antivirus software",
     "overview": "Our antivirus setup service ensures your computer is protected against malware, spyware, and viruses using leading security software. Protect your PC from online threats with our professional antivirus setup. We install trusted security software, configure real-time protection, and schedule regular updates. Stay safe from viruses, malware, and spyware — 24/7.",
+    "duration": "10-20 minutes",
+    "warranty": "6 months",
     "included": [
       "Installation of antivirus software",
       "Configuration of real-time protection",
@@ -298,47 +320,26 @@
     ]
   },
   {
-    "icon": "fas fa-building",
-    "slug": "bulk-activation-business",
-    "title": "Bulk Activation for Businesses",
-    "subtitle": "Enterprise-level activation solutions for organizations",
-    "overview": "Activate multiple PCs with licensed Windows or Office at once for businesses. Our bulk licensing solutions are designed for schools, NGOs, and enterprises — saving you time, reducing costs, and ensuring compliance with genuine licenses.",
-    "included": [
-      "Activation service",
-      "Installation assistance",
-      "License verification"
-    ],
-    "process": [
-      "Needs assessment",
-      "Batch activation",
-      "Post-activation report"
-    ],
-    "requirements": [
-      "Administrator access",
-      "List of device specifications"
-    ]
-  },
-  {
-    "title": "Vente & Installation de Jeux Vidéo",
-    "subtitle": "Large choix de jeux pour toutes plateformes, installation et configuration incluses.",
     "icon": "fas fa-gamepad",
     "slug": "vente-installation-jeux-video",
+    "title": "Xbox Video Game Sales & Installation",
+    "subtitle": "Wide selection of games for all platforms, including installation and configuration.",
+    "overview": "We offer a wide range of PC games with installation support and updates. Looking for your favorite games? We provide a large selection of PC games with installation and configuration included. Whether Steam titles or offline versions, we ensure everything runs smoothly — ready to play without hassle.",
     "duration": "Varies",
     "warranty": "7 days",
-    "overview": "We offer a wide range of PC games with installation support and updates. Looking for your favorite games? We offer a wide selection of PC games with installation and configuration included. Whether it's Steam titles or offline versions, we make sure everything runs smoothly — ready to play, hassle-free.",
     "included": [
-      "Game sale (Steam, offline installers, etc.)",
+      "Game sales (Steam, offline installers, etc.)",
       "Installation",
       "Crack or license setup if needed"
     ],
     "process": [
       "Game selection",
       "Purchase or activation",
-      "Installation and test"
+      "Installation and testing"
     ],
     "requirements": [
       "Sufficient disk space",
-      "Internet if online activation is required"
+      "Internet connection if online activation is required"
     ]
   }
 ]

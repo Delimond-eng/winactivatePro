@@ -229,6 +229,15 @@ const translations = {
     "detail.contact.subtitle":
       "Contactez-nous maintenant pour activer votre Windows ou obtenir tout autre service",
     "detail.get.service": "Obtenir ce Service",
+    "detail.genuine": "100% Authentique",
+    "detail.genuine.desc": "Seulement des licences Microsoft authentiques",
+    "detail.lifetime": "Validité à Vie",
+    "detail.lifetime.desc": "Aucune expiration ni renouvellement nécessaire",
+    "detail.support": "Support 24/7",
+    "detail.support.desc": "Toujours disponible en cas de besoin",
+    "detail.quick": "Service Rapide",
+    "detail.quick.desc": "Activation réalisée en quelques minutes",
+    "detail.remote.service": "Service à distance",
   },
 
   en: {
@@ -457,6 +466,15 @@ const translations = {
     "detail.contact.subtitle":
       "Contact us now to activate your Windows or get any other service",
     "detail.get.service": "Get This Service",
+    "detail.genuine": "100% Genuine",
+    "detail.genuine.desc": "Only authentic Microsoft licenses",
+    "detail.lifetime": "Lifetime Validity",
+    "detail.lifetime.desc": "No expiration or renewal needed",
+    "detail.support": "24/7 Support",
+    "detail.support.desc": "Always available when you need help",
+    "detail.quick": "Quick Service",
+    "detail.quick.desc": "Activation completed in minutes",
+    "detail.remote.service": "Remote service",
   },
 
   nl: {
@@ -684,6 +702,15 @@ const translations = {
     "detail.contact.subtitle":
       "Neem nu contact met ons op om uw Windows te activeren of een andere service te krijgen",
     "detail.get.service": "Krijg deze Service",
+    "detail.genuine": "100% Echt",
+    "detail.genuine.desc": "Alleen authentieke Microsoft-licenties",
+    "detail.lifetime": "Levenslange Geldigheid",
+    "detail.lifetime.desc": "Geen vervaldatum of vernieuwing nodig",
+    "detail.support": "24/7 Ondersteuning",
+    "detail.support.desc": "Altijd beschikbaar als u hulp nodig hebt",
+    "detail.quick": "Snelle Service",
+    "detail.quick.desc": "Activatie binnen enkele minuten voltooid",
+    "detail.remote.service": "Afstandsbediening",
   },
 };
 
@@ -707,7 +734,7 @@ async function renderServices(lang) {
 
     // Générer et injecter chaque carte
     servicesDataset.forEach((service) => {
-      const link = `/detail?slug=${service.slug}`;
+      const link = `/detail.html?slug=${service.slug}`;
 
       const card = document.createElement("div");
       card.className = "service-card";

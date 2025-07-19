@@ -5,8 +5,8 @@
         "title": "Windows 10/11 Activering",
         "subtitle": "Authentieke activering met levenslange geldigheid en volledige Microsoft-ondersteuning",
         "overview": "Activeer uw Windows-systeem met een officiële en permanente licentie. Ons snelle en veilige externe activatieproces zorgt ervoor dat uw pc optimaal presteert, met toegang tot alle updates en functies. Geen watermerken, beperkingen of foutmeldingen meer — geniet van een stabiele en volledig ondersteunde Windows-ervaring.",
-        "duration": "15-30 minutes",
-        "warranty": "Lifetime",
+        "duration": "15-30 minuten",
+        "warranty": "Levenslang",
         "included": [
             "Officiële Windows 10/11 Pro licentie",
             "Levenslange activering — geen vervaldatum",
@@ -35,11 +35,13 @@
         ]
     },
     {
-        "icon":"fas fa-file-alt",
-        "slug":"activation-office-365-2016-2019-2021",
+        "icon": "fas fa-file-alt",
+        "slug": "activation-office-365-2016-2019-2021",
         "title": "Office 365/2016/2019/2021 Activering",
         "subtitle": "Volledige activering van Microsoft Office met alle functies ontgrendeld",
         "overview": "Verhoog uw productiviteit met een volledig geactiveerde Microsoft Office-suite. Of u nu kiest voor Office 365, 2016, 2019 of 2021 — wij zorgen voor een vlotte en legitieme installatie, compatibel met Windows én macOS. Ideaal voor studenten, zelfstandigen, professionals en bedrijven. Geniet van volledige toegang tot Word, Excel, Outlook, PowerPoint en meer — zonder beperkingen.",
+        "duration": "20-40 minuten",
+        "warranty": "Levenslang",
         "included": [
             "Installatie van Office-software",
             "Activering met een officiële licentie (Office 365/2016/2019/2021)",
@@ -72,6 +74,8 @@
         "title": "Volledige Systeemherinstallatie",
         "subtitle": "Schone Windows-installatie met alle essentiële stuurprogramma's en software",
         "overview": "Geef uw computer een nieuw leven met een volledige systeemherinstallatie. Wij formatteren het hele systeem, installeren de nieuwste Windows-versie, alle noodzakelijke stuurprogramma's en essentiële software. Ideaal voor trage, geïnfecteerde of onstabiele pc's. Na de service beschikt u over een snel, schoon en stabiel systeem dat direct klaar is voor gebruik.",
+        "duration": "2 uur",
+        "warranty": "15 dagen",
         "included": [
             "Volledig formatteren en installatie van een schone Windows-versie",
             "Installatie van de nieuwste stuurprogramma's",
@@ -96,6 +100,8 @@
         "title": "Systeemherstel",
         "subtitle": "Oplossen van Windows-fouten, crashes en prestatieproblemen",
         "overview": "Werkt uw computer traag, crasht hij of blijft hij hangen bij het opstarten? Met onze Systeemherstel-service sporen wij de oorzaak op en herstellen wij Windows-fouten, registerproblemen, stuurprogramma's en opstartproblemen. Uw pc wordt stabieler, sneller en betrouwbaarder — zonder verlies van gegevens. Ideaal voor zowel dagelijks als professioneel gebruik.",
+        "duration": "1-3 uur",
+        "warranty": "7 dagen",
         "included": [
             "Volledige systeemdiagnose",
             "Herstel van Windows-register- en systeemfouten",
@@ -119,6 +125,8 @@
         "title": "PC-optimalisatie",
         "subtitle": "Versnel uw computer en verbeter de algemene prestaties",
         "overview": "Is uw computer traag of reageert hij slecht? Met onze PC-optimalisatiedienst reinigen we uw systeem grondig, verwijderen we overbodige bestanden en programma's, en passen we de prestaties aan voor maximale snelheid en efficiëntie. Geniet van snellere opstarttijden, soepelere werking en betere systeemprestaties. Ideaal voor dagelijks gebruik, gaming of professioneel werk.",
+        "duration": "1 uur",
+        "warranty": "7 dagen",
         "included": [
             "Opschonen van opstartprogramma’s en achtergrondtaken",
             "Verwijderen van ongewenste software",
@@ -141,6 +149,8 @@
         "title": "Virusverwijdering",
         "subtitle": "Volledige verwijdering van malware en betere systeembeveiliging",
         "overview": "Vermoedt u dat uw computer is geïnfecteerd met een virus, malware of spyware? Onze dienst voor virusverwijdering voert een grondige scan uit, verwijdert alle schadelijke software en versterkt uw systeem tegen toekomstige bedreigingen. We werken uw stuurprogramma's bij, installeren essentiële beveiligingstools en zorgen ervoor dat uw pc opnieuw veilig, schoon en snel draait — zonder gegevensverlies.",
+        "duration": "30-60 minuten",
+        "warranty": "7 dagen",
         "included": [
             "Volledige systeemscan op virussen en malware",
             "Verwijdering van trojans, spyware, ransomware enz.",
@@ -165,6 +175,8 @@
         "title": "Gegevensback-up & Herstel",
         "subtitle": "Veilige back-up en professionele gegevensherstelservice",
         "overview": "Bent u belangrijke bestanden kwijtgeraakt door een systeemfout, per ongeluk wissen of een beschadigde schijf? Met onze dienst voor Gegevensback-up & Herstel kunt u verloren gegevens veilig terughalen en betrouwbare back-ups instellen om toekomstig verlies te voorkomen. Of het nu gaat om persoonlijke documenten, foto's of bedrijfsbestanden — wij behandelen uw gegevens met discretie en zorg.",
+        "duration": "Variabel (30 min tot 4 uur)",
+        "warranty": "N/B",
         "included": [
             "Back-up op externe schijf of cloudopslag",
             "Herstel van gegevens op beschadigde of geformatteerde schijven",
@@ -188,6 +200,8 @@
         "title": "Installatie van Stuurprogramma's & Software",
         "subtitle": "Installatie van de nieuwste drivers en essentiële software",
         "overview": "Zorg ervoor dat uw computer optimaal werkt door alle noodzakelijke stuurprogramma's en essentiële software te installeren. Onze professionele dienst garandeert volledige hardwarecompatibiliteit, actuele componenten en soepele prestaties. Of u nu Office, antivirus of browsers nodig hebt, wij regelen alles — snel, veilig en zonder technische kopzorgen.",
+        "duration": "30-60 minuten",
+        "warranty": "7 dagen",
         "included": [
             "Updates van alle noodzakelijke stuurprogramma's",
             "Installatie van gevraagde software (Office, browsers, antivirus, enz.)",
@@ -211,6 +225,8 @@
         "title": "Hulp op afstand",
         "subtitle": "Professionele hulp op afstand voor onmiddellijke probleemoplossing.",
         "overview": "Snelle ondersteuning via internet met AnyDesk of TeamViewer.  Krijg technische ondersteuning in realtime vanuit je huis of kantoor. Met onze hulp op afstand lossen we jouw problemen live op via schermdeling — snel, veilig en efficiënt. Geen noodzaak om te reizen of te wachten op hulp ter plaatse.",
+        "duration": "30 min - 1 uur",
+        "warranty": "7 dagen",
         "included": [
             "Probleemdiagnose",
             "Live ondersteuning",
@@ -232,6 +248,8 @@
         "title": "Microsoft-account instellen",
         "subtitle": "Volledige configuratie en synchronisatie van het Microsoft-account.",
         "overview": "Hulp bij het aanmaken, instellen of herstellen van een Microsoft-account. Stel eenvoudig je Microsoft-account in of herstel het. Wij begeleiden je stap voor stap — van accountaanmaak tot beveiligingsinstellingen en synchronisatie. Essentieel voor het gebruik van OneDrive, Outlook, Microsoft Store en andere Microsoft-diensten.",
+        "duration": "30 minuten",
+        "warranty": "N/B",
         "included": [
             "Account aanmaken",
             "Beveiligingsinstellingen",
@@ -252,6 +270,8 @@
         "title": "Veilige ISO-download",
         "subtitle": "Officiële Windows- en Office-ISO-bestanden van Microsoft-servers",
         "overview": "Wij bieden betrouwbare en veilige downloadlinks voor officiële ISO-bestanden. Heb je een schone kopie van Windows of Office nodig? Wij leveren officiële ISO-bestanden rechtstreeks van de Microsoft-servers — veilig, virusvrij en klaar voor installatie. Of je nu je systeem opnieuw installeert of een opstartbare USB wilt maken, wij staan voor je klaar.",
+        "duration": "Onmiddellijk",
+        "warranty": "Niet van toepassing",
         "included": [
             "Windows ISO",
             "Office ISO",
@@ -272,6 +292,8 @@
         "title": "Antivirusinstallatie",
         "subtitle": "Professionele installatie en configuratie van antivirussoftware",
         "overview": "Onze antivirusinstallatieservice zorgt ervoor dat uw computer beschermd is tegen virussen, spyware en malware met behulp van toonaangevende beveiligingssoftware. Bescherm je pc tegen online bedreigingen met onze professionele setup. We installeren betrouwbare antivirussoftware, activeren realtime bescherming en plannen automatische updates. Blijf 24/7 veilig tegen digitale bedreigingen.",
+        "duration": "10-20 minuten",
+        "warranty": "6 maanden",
         "included": [
             "Installatie van antivirussoftware",
             "Configuratie van realtime bescherming",
@@ -298,45 +320,26 @@
         ]
     },
     {
-        "icon": "fas fa-building",
-        "slug": "bulk-activation-business",
-        "title": "Bulkactivering voor bedrijven",
-        "subtitle": "Activeringsoplossingen op ondernemingsniveau voor organisaties",
-        "overview": "Activeer meerdere Windows- of Office-installaties tegelijk voor bedrijven met legitieme licenties. Onze bulklicentie-oplossingen zijn ontworpen voor scholen, NGO’s en ondernemingen — ze besparen tijd en geld en zorgen voor naleving van echte licenties.",
-        "included": [
-            "Activatiedienst",
-            "Installatiehulp",
-            "Licentiecontrole"
-        ],
-        "process": [
-            "Behoefteanalyse",
-            "Groepsactivering",
-            "Rapport na activering"
-        ],
-        "requirements": [
-            "Beheerdersrechten",
-            "Lijst met apparaatspecificaties"
-        ]
-    },
-    {
         "icon": "fas fa-gamepad",
         "slug": "vente-installation-jeux-video",
-        "title": "Vente et installation de jeux vidéo",
-        "subtitle": "Large choix de jeux pour toutes plateformes, installation et configuration incluses.",
-        "overview": "Nous proposons un large éventail de jeux PC avec support d’installation et mises à jour. Vous cherchez vos jeux préférés ? Nous offrons une grande sélection de jeux PC avec installation et configuration incluses. Qu’il s’agisse de titres Steam ou de versions hors ligne, nous veillons à ce que tout fonctionne parfaitement — prêt à jouer, sans tracas.",
+        "title": "Verkoop en Installatie van Videospellen Xbox",
+        "subtitle": "Groot aanbod van spellen voor alle platforms, inclusief installatie en configuratie.",
+        "overview": "We bieden een breed scala aan pc-spellen met installatiesupport en updates. Op zoek naar je favoriete spellen? Wij bieden een grote selectie pc-spellen met installatie en configuratie inbegrepen. Of het nu Steam-titels of offline versies zijn, wij zorgen dat alles soepel draait — klaar om zonder gedoe te spelen.",
+        "duration": "Variabel",
+        "warranty": "7 dagen",
         "included": [
-            "Vente de jeux (Steam, installateurs hors ligne, etc.)",
-            "Installation",
-            "Installation de crack ou licence si nécessaire"
+            "Verkoop van spellen (Steam, offline-installers, enz.)",
+            "Installatie",
+            "Crack- of licentie-instelling indien nodig"
         ],
         "process": [
-            "Sélection du jeu",
-            "Achat ou activation",
-            "Installation et test"
+            "Spel selectie",
+            "Aankoop of activatie",
+            "Installatie en testen"
         ],
         "requirements": [
-            "Espace disque suffisant",
-            "Connexion Internet si activation en ligne requise"
+            "Voldoende schijfruimte",
+            "Internetverbinding als online activatie vereist is"
         ]
     }
 ]

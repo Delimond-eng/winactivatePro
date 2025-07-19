@@ -1,1 +1,2 @@
-back/vendor
+back/vendor/
+.htaccess
