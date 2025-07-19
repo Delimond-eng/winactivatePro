@@ -1,0 +1,342 @@
+[
+    {
+        "icon": "fab fa-windows",
+        "slug": "activation-windows-10-11",
+        "title": "Windows 10/11 Activering",
+        "subtitle": "Authentieke activering met levenslange geldigheid en volledige Microsoft-ondersteuning",
+        "overview": "Activeer uw Windows-systeem met een officiële en permanente licentie. Ons snelle en veilige externe activatieproces zorgt ervoor dat uw pc optimaal presteert, met toegang tot alle updates en functies. Geen watermerken, beperkingen of foutmeldingen meer — geniet van een stabiele en volledig ondersteunde Windows-ervaring.",
+        "duration": "15-30 minutes",
+        "warranty": "Lifetime",
+        "included": [
+            "Officiële Windows 10/11 Pro licentie",
+            "Levenslange activering — geen vervaldatum",
+            "Volledige toegang tot Microsoft-updates en ondersteuning",
+            "Externe activering door een technicus",
+            "Geen productsleutel nodig aan uw kant",
+            "24/7 technische ondersteuning door experts"
+        ],
+        "process": [
+            "Neem contact met ons op via WhatsApp, telefoon of formulier",
+            "Plan een snelle externe sessie",
+            "Wij activeren uw Windows op afstand",
+            "Live verificatie van de activering met u",
+            "Nazorg en ondersteuning wanneer nodig"
+        ],
+        "requirements": [
+            "Een pc met Windows 10 of 11 geïnstalleerd",
+            "Stabiele internetverbinding",
+            "AnyDesk of TeamViewer (wij begeleiden u)"
+        ],
+        "features": [
+            "100% legale en authentieke licentie",
+            "Snelle en probleemloze installatie",
+            "Compatibel met alle systeemtalen",
+            "Veilig proces op afstand — geen risico voor uw gegevens"
+        ]
+    },
+    {
+        "icon":"fas fa-file-alt",
+        "slug":"activation-office-365-2016-2019-2021",
+        "title": "Office 365/2016/2019/2021 Activering",
+        "subtitle": "Volledige activering van Microsoft Office met alle functies ontgrendeld",
+        "overview": "Verhoog uw productiviteit met een volledig geactiveerde Microsoft Office-suite. Of u nu kiest voor Office 365, 2016, 2019 of 2021 — wij zorgen voor een vlotte en legitieme installatie, compatibel met Windows én macOS. Ideaal voor studenten, zelfstandigen, professionals en bedrijven. Geniet van volledige toegang tot Word, Excel, Outlook, PowerPoint en meer — zonder beperkingen.",
+        "included": [
+            "Installatie van Office-software",
+            "Activering met een officiële licentie (Office 365/2016/2019/2021)",
+            "Hulp bij het aanmaken van een account indien nodig",
+            "Externe installatie en configuratie",
+            "Basisgids voor eerste gebruik",
+            "Ondersteuning na installatie"
+        ],
+        "process": [
+            "Bespreking van uw behoeften en versiekeuze",
+            "Downloaden en voorbereiden van het juiste Office-pakket",
+            "Externe sessie voor installatie en activering",
+            "Controle en bevestiging samen met de klant"
+        ],
+        "requirements": [
+            "Compatibel Windows- of macOS-systeem",
+            "Internetverbinding",
+            "Toegang op afstand via AnyDesk of TeamViewer"
+        ],
+        "features": [
+            "Ondersteunt installatie op meerdere apparaten",
+            "100% legitieme en geverifieerde licentie",
+            "Bevat Word, Excel, Outlook, PowerPoint, enz.",
+            "Technische ondersteuning na installatie"
+        ]
+    },
+    {
+        "icon": "fas fa-redo-alt",
+        "slug": "full-system-reinstallation",
+        "title": "Volledige Systeemherinstallatie",
+        "subtitle": "Schone Windows-installatie met alle essentiële stuurprogramma's en software",
+        "overview": "Geef uw computer een nieuw leven met een volledige systeemherinstallatie. Wij formatteren het hele systeem, installeren de nieuwste Windows-versie, alle noodzakelijke stuurprogramma's en essentiële software. Ideaal voor trage, geïnfecteerde of onstabiele pc's. Na de service beschikt u over een snel, schoon en stabiel systeem dat direct klaar is voor gebruik.",
+        "included": [
+            "Volledig formatteren en installatie van een schone Windows-versie",
+            "Installatie van de nieuwste stuurprogramma's",
+            "Installatie van essentiële software (browser, Office, PDF-lezer, enz.)",
+            "Optionele back-up en herstel van persoonlijke gegevens",
+            "Basisconfiguratie voor optimale prestaties"
+        ],
+        "process": [
+            "Consultatie en evaluatie van gegevens (indien nodig back-up)",
+            "Volledige systeemformat en OS-installatie",
+            "Installatie van stuurprogramma's en software",
+            "Eindcontrole van het systeem en overdracht"
+        ],
+        "requirements": [
+            "Stabiele stroomvoorziening of volle batterij",
+            "Windows-licentie of productsleutel (indien beschikbaar)"
+        ]
+    },
+    {
+        "icon": "fas fa-tools",
+        "slug": "system-repair",
+        "title": "Systeemherstel",
+        "subtitle": "Oplossen van Windows-fouten, crashes en prestatieproblemen",
+        "overview": "Werkt uw computer traag, crasht hij of blijft hij hangen bij het opstarten? Met onze Systeemherstel-service sporen wij de oorzaak op en herstellen wij Windows-fouten, registerproblemen, stuurprogramma's en opstartproblemen. Uw pc wordt stabieler, sneller en betrouwbaarder — zonder verlies van gegevens. Ideaal voor zowel dagelijks als professioneel gebruik.",
+        "included": [
+            "Volledige systeemdiagnose",
+            "Herstel van Windows-register- en systeemfouten",
+            "Probleemoplossing en herinstallatie van stuurprogramma's",
+            "Optimalisatie van opstartproces en prestaties",
+            "Controle van systeemintegriteit"
+        ],
+        "process": [
+            "Vooronderzoek en foutenanalyse",
+            "Toepassing van de nodige herstellingen",
+            "Eindcontrole en validatie van het systeem"
+        ],
+        "requirements": [
+            "Toegangswachtwoord van het apparaat (indien van toepassing)",
+            "Oplader of volledig opgeladen batterij"
+        ]
+    },
+    {
+        "icon": "fas fa-tachometer-alt",
+        "slug": "pc-optimization",
+        "title": "PC-optimalisatie",
+        "subtitle": "Versnel uw computer en verbeter de algemene prestaties",
+        "overview": "Is uw computer traag of reageert hij slecht? Met onze PC-optimalisatiedienst reinigen we uw systeem grondig, verwijderen we overbodige bestanden en programma's, en passen we de prestaties aan voor maximale snelheid en efficiëntie. Geniet van snellere opstarttijden, soepelere werking en betere systeemprestaties. Ideaal voor dagelijks gebruik, gaming of professioneel werk.",
+        "included": [
+            "Opschonen van opstartprogramma’s en achtergrondtaken",
+            "Verwijderen van ongewenste software",
+            "Schoonmaken van register en optimalisatie van schijfruimte",
+            "Systeeminstellingen aanpassen voor betere prestaties",
+            "Verwijderen van tijdelijke bestanden en browsercache"
+        ],
+        "process": [
+            "Analyse van systeem en prestaties",
+            "Grondige reiniging en systeemafstelling",
+            "Eindcontrole en afstemming"
+        ],
+        "requirements": [
+            "Beheerdersrechten (wachtwoord vereist)"
+        ]
+    },
+    {
+        "icon": "fas fa-shield-virus",
+        "slug": "virus-removal",
+        "title": "Virusverwijdering",
+        "subtitle": "Volledige verwijdering van malware en betere systeembeveiliging",
+        "overview": "Vermoedt u dat uw computer is geïnfecteerd met een virus, malware of spyware? Onze dienst voor virusverwijdering voert een grondige scan uit, verwijdert alle schadelijke software en versterkt uw systeem tegen toekomstige bedreigingen. We werken uw stuurprogramma's bij, installeren essentiële beveiligingstools en zorgen ervoor dat uw pc opnieuw veilig, schoon en snel draait — zonder gegevensverlies.",
+        "included": [
+            "Volledige systeemscan op virussen en malware",
+            "Verwijdering van trojans, spyware, ransomware enz.",
+            "Stuurprogramma-updates en beveiligingspatches",
+            "Installatie van antivirus en beschermingssoftware",
+            "Beveiligingsinstellingen en browseropschoning"
+        ],
+        "process": [
+            "Systeemscan en detectie van bedreigingen",
+            "Verwijdering van malware en herstel van bestanden",
+            "Configuratie van beveiliging en eindcontrole"
+        ],
+        "requirements": [
+            "Internetverbinding",
+            "Beheerdersrechten",
+            "Licentiesleutels indien nodig"
+        ]
+    },
+    {
+        "icon": "fas fa-database",
+        "slug": "data-backup-recovery",
+        "title": "Gegevensback-up & Herstel",
+        "subtitle": "Veilige back-up en professionele gegevensherstelservice",
+        "overview": "Bent u belangrijke bestanden kwijtgeraakt door een systeemfout, per ongeluk wissen of een beschadigde schijf? Met onze dienst voor Gegevensback-up & Herstel kunt u verloren gegevens veilig terughalen en betrouwbare back-ups instellen om toekomstig verlies te voorkomen. Of het nu gaat om persoonlijke documenten, foto's of bedrijfsbestanden — wij behandelen uw gegevens met discretie en zorg.",
+        "included": [
+            "Back-up op externe schijf of cloudopslag",
+            "Herstel van gegevens op beschadigde of geformatteerde schijven",
+            "Bestandssysteemreparatie indien nodig",
+            "Instellen van automatische back-up (optioneel)",
+            "Advies over veilige back-upstrategieën"
+        ],
+        "process": [
+            "Eerste beoordeling van de gegevenssituatie",
+            "Poging tot herstel met professionele software",
+            "Veilige back-up uitvoeren en verifiëren"
+        ],
+        "requirements": [
+            "Opslagapparaat (USB, externe HDD of cloudaccount)",
+            "Toestemming van de gebruiker voor toegang"
+        ]
+    },
+    {
+        "icon": "fas fa-download",
+        "slug": "driver-software-installation",
+        "title": "Installatie van Stuurprogramma's & Software",
+        "subtitle": "Installatie van de nieuwste drivers en essentiële software",
+        "overview": "Zorg ervoor dat uw computer optimaal werkt door alle noodzakelijke stuurprogramma's en essentiële software te installeren. Onze professionele dienst garandeert volledige hardwarecompatibiliteit, actuele componenten en soepele prestaties. Of u nu Office, antivirus of browsers nodig hebt, wij regelen alles — snel, veilig en zonder technische kopzorgen.",
+        "included": [
+            "Updates van alle noodzakelijke stuurprogramma's",
+            "Installatie van gevraagde software (Office, browsers, antivirus, enz.)",
+            "Basisconfiguratie en optimalisatie",
+            "Verwijdering van verouderde of conflicterende drivers (indien nodig)"
+        ],
+        "process": [
+            "Controle van systeemcompatibiliteit en ontbrekende stuurprogramma's",
+            "Download en installatie van de vereiste software en drivers",
+            "Configuratie en prestatietest"
+        ],
+        "requirements": [
+            "Stabiele internetverbinding",
+            "Licentiesleutels voor software (indien van toepassing)",
+            "Beheerdersrechten op het systeem"
+        ]
+    },
+    {
+        "icon": "fas fa-headset",
+        "slug": "remote-assistance",
+        "title": "Hulp op afstand",
+        "subtitle": "Professionele hulp op afstand voor onmiddellijke probleemoplossing.",
+        "overview": "Snelle ondersteuning via internet met AnyDesk of TeamViewer.  Krijg technische ondersteuning in realtime vanuit je huis of kantoor. Met onze hulp op afstand lossen we jouw problemen live op via schermdeling — snel, veilig en efficiënt. Geen noodzaak om te reizen of te wachten op hulp ter plaatse.",
+        "included": [
+            "Probleemdiagnose",
+            "Live ondersteuning",
+            "Schermdeling en oplossing"
+        ],
+        "process": [
+            "Contact met klant",
+            "Verbinding opzetten",
+            "Probleem oplossen"
+        ],
+        "requirements": [
+            "Internetverbinding",
+            "AnyDesk- of TeamViewer-ID"
+        ]
+    },
+    {
+        "icon": "fas fa-user-cog",
+        "slug": "microsoft-account-setup",
+        "title": "Microsoft-account instellen",
+        "subtitle": "Volledige configuratie en synchronisatie van het Microsoft-account.",
+        "overview": "Hulp bij het aanmaken, instellen of herstellen van een Microsoft-account. Stel eenvoudig je Microsoft-account in of herstel het. Wij begeleiden je stap voor stap — van accountaanmaak tot beveiligingsinstellingen en synchronisatie. Essentieel voor het gebruik van OneDrive, Outlook, Microsoft Store en andere Microsoft-diensten.",
+        "included": [
+            "Account aanmaken",
+            "Beveiligingsinstellingen",
+            "Wachtwoordherstel"
+        ],
+        "process": [
+            "Identiteitscontrole van de gebruiker",
+            "Stap-voor-stap begeleiding"
+        ],
+        "requirements": [
+            "Toegang tot e-mail of telefoon",
+            "Persoonlijke gegevens voor verificatie"
+        ]
+    },
+    {
+        "icon": "fas fa-compact-disc",
+        "slug": "secure-iso-download",
+        "title": "Veilige ISO-download",
+        "subtitle": "Officiële Windows- en Office-ISO-bestanden van Microsoft-servers",
+        "overview": "Wij bieden betrouwbare en veilige downloadlinks voor officiële ISO-bestanden. Heb je een schone kopie van Windows of Office nodig? Wij leveren officiële ISO-bestanden rechtstreeks van de Microsoft-servers — veilig, virusvrij en klaar voor installatie. Of je nu je systeem opnieuw installeert of een opstartbare USB wilt maken, wij staan voor je klaar.",
+        "included": [
+            "Windows ISO",
+            "Office ISO",
+            "Activeringshandleiding (optioneel)"
+        ],
+        "process": [
+            "Verificatie van de aanvraag",
+            "Veilige link naar de klant verzonden"
+        ],
+        "requirements": [
+            "Opslagruimte",
+            "E-mail of berichtenapp voor levering"
+        ]
+    },
+    {
+        "icon": "fas fa-shield-alt",
+        "slug": "antivirus-setup",
+        "title": "Antivirusinstallatie",
+        "subtitle": "Professionele installatie en configuratie van antivirussoftware",
+        "overview": "Onze antivirusinstallatieservice zorgt ervoor dat uw computer beschermd is tegen virussen, spyware en malware met behulp van toonaangevende beveiligingssoftware. Bescherm je pc tegen online bedreigingen met onze professionele setup. We installeren betrouwbare antivirussoftware, activeren realtime bescherming en plannen automatische updates. Blijf 24/7 veilig tegen digitale bedreigingen.",
+        "included": [
+            "Installatie van antivirussoftware",
+            "Configuratie van realtime bescherming",
+            "Initiële scan en verwijdering van bedreigingen",
+            "Plannen van updates",
+            "Ondersteuning bij waarschuwingen"
+        ],
+        "process": [
+            "Kiezen van antivirusmerk",
+            "Installatie op afstand",
+            "Voorkeuren instellen",
+            "Eerste systeemscan"
+        ],
+        "requirements": [
+            "Compatibel besturingssysteem",
+            "Beheerdersrechten",
+            "Internetverbinding"
+        ],
+        "features": [
+            "Betrouwbare beveiligingsmerken",
+            "Geen configuratieproblemen",
+            "24/7 bedreigingsbewaking",
+            "Gemoedsrust gegarandeerd"
+        ]
+    },
+    {
+        "icon": "fas fa-building",
+        "slug": "bulk-activation-business",
+        "title": "Bulkactivering voor bedrijven",
+        "subtitle": "Activeringsoplossingen op ondernemingsniveau voor organisaties",
+        "overview": "Activeer meerdere Windows- of Office-installaties tegelijk voor bedrijven met legitieme licenties. Onze bulklicentie-oplossingen zijn ontworpen voor scholen, NGO’s en ondernemingen — ze besparen tijd en geld en zorgen voor naleving van echte licenties.",
+        "included": [
+            "Activatiedienst",
+            "Installatiehulp",
+            "Licentiecontrole"
+        ],
+        "process": [
+            "Behoefteanalyse",
+            "Groepsactivering",
+            "Rapport na activering"
+        ],
+        "requirements": [
+            "Beheerdersrechten",
+            "Lijst met apparaatspecificaties"
+        ]
+    },
+    {
+        "icon": "fas fa-gamepad",
+        "slug": "vente-installation-jeux-video",
+        "title": "Vente et installation de jeux vidéo",
+        "subtitle": "Large choix de jeux pour toutes plateformes, installation et configuration incluses.",
+        "overview": "Nous proposons un large éventail de jeux PC avec support d’installation et mises à jour. Vous cherchez vos jeux préférés ? Nous offrons une grande sélection de jeux PC avec installation et configuration incluses. Qu’il s’agisse de titres Steam ou de versions hors ligne, nous veillons à ce que tout fonctionne parfaitement — prêt à jouer, sans tracas.",
+        "included": [
+            "Vente de jeux (Steam, installateurs hors ligne, etc.)",
+            "Installation",
+            "Installation de crack ou licence si nécessaire"
+        ],
+        "process": [
+            "Sélection du jeu",
+            "Achat ou activation",
+            "Installation et test"
+        ],
+        "requirements": [
+            "Espace disque suffisant",
+            "Connexion Internet si activation en ligne requise"
+        ]
+    }
+]

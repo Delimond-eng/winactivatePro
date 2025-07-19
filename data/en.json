@@ -1,0 +1,344 @@
+[
+  {
+    "icon": "fab fa-windows",
+    "slug": "activation-windows-10-11",
+    "title": "Windows 10/11 Activation",
+    "subtitle": "Genuine activation with lifetime validity and full Microsoft support",
+    "overview": "Activate your Windows system with an authentic and permanent license. Our fast and secure remote activation process ensures your PC runs at full potential, with access to all updates and features. Say goodbye to limitations, watermark warnings, or blocked settings. With our service, you enjoy a fully compliant Windows experience — stable, secure, and supported.",
+    "duration": "15-30 minutes",
+    "warranty": "Lifetime",
+    "included": [
+      "Official Windows 10/11 Pro license",
+      "Lifetime activation — no expiration",
+      "Full eligibility for Microsoft updates and support",
+      "Remote activation by a technician",
+      "No product key required from your side",
+      "24/7 expert technical assistance"
+    ],
+    "process": [
+      "Contact us via WhatsApp, call, or online form",
+      "Schedule a quick remote session",
+      "We activate your Windows system remotely",
+      "We verify everything with you live",
+      "Post-activation support is available anytime"
+    ],
+    "requirements": [
+      "A PC with Windows 10 or 11 installed",
+      "Stable internet connection",
+      "AnyDesk or TeamViewer (we provide guidance)"
+    ],
+    "features": [
+      "100% legal and genuine license",
+      "Quick and hassle-free setup",
+      "Compatible with all system languages",
+      "Secure remote process — no data risk"
+    ]
+  },
+  {
+    "icon":"fas fa-file-alt",
+    "slug":"activation-office-365-2016-2019-2021",
+    "title": "Office 365/2016/2019/2021 Activation",
+    "subtitle": "Complete Microsoft Office suite activation with all features unlocked",
+    "overview": "Boost your productivity with a fully activated Microsoft Office suite. Whether you use Office 365, 2016, 2019, or 2021, we ensure a smooth, genuine activation process, compatible with both Windows and macOS. Ideal for students, freelancers, professionals, and businesses — enjoy full access to Word, Excel, PowerPoint, Outlook, and more, without any restrictions.",
+    "included": [
+      "Installation of Office software",
+      "Genuine license activation (Office 365/2016/2019/2021)",
+      "Assistance with account setup if required",
+      "Remote installation and configuration",
+      "Basic guidance on first-time usage",
+      "Post-installation support"
+    ],
+    "process": [
+      "We discuss your needs and version preference",
+      "Download and prepare the correct Office package",
+      "Remote session for installation and activation",
+      "Final testing and confirmation with the client"
+    ],
+    "requirements": [
+      "Compatible Windows or macOS system",
+      "Internet access",
+      "Remote desktop access via AnyDesk or TeamViewer"
+    ],
+    "features": [
+      "Supports installation on multiple devices",
+      "100% genuine and verified license",
+      "Includes major apps like Word, Excel, Outlook, PowerPoint",
+      "Ongoing technical assistance after setup"
+    ]
+  },
+  {
+    "icon": "fas fa-redo-alt",
+    "slug": "full-system-reinstallation",
+    "title": "Full System Reinstallation",
+    "subtitle": "Clean Windows installation with all essential drivers and software",
+    "overview": "Give your computer a fresh start with a full system wipe and professional reinstallation. We format the entire system, install the latest version of Windows, and configure all drivers and essential tools — ensuring optimal speed, security, and performance. This service is perfect if your PC is slow, infected, or unstable. You’ll get a smooth and clean setup ready for daily use.",
+    "included": [
+      "Full system format and clean Windows installation",
+      "Installation of latest device drivers",
+      "Setup of essential software (browser, Office, PDF reader, etc.)",
+      "Optional backup and restore of personal data",
+      "Basic configuration for optimal performance"
+    ],
+    "process": [
+      "Consultation and data evaluation (backup if needed)",
+      "Full system format and OS installation",
+      "Driver and software installation",
+      "Final system testing and handover"
+    ],
+    "requirements": [
+      "Stable power supply or battery",
+      "Windows product key or license (if available)"
+    ]
+  },
+  {
+    "icon": "fas fa-tools",
+    "slug": "system-repair",
+    "title": "System Repair",
+    "subtitle": "Fix Windows errors, crashes, and performance issues",
+    "overview": "Is your computer crashing, freezing, or running slow? Our System Repair service is designed to diagnose and fix critical issues such as system errors, startup problems, registry conflicts, and driver malfunctions. We bring your PC back to life, improving stability and speed without losing your data. Fast, safe, and reliable repair — so you can get back to work or play.",
+    "included": [
+      "Complete system diagnostics",
+      "Fixing of Windows registry and system errors",
+      "Driver troubleshooting and reinstallation",
+      "Startup and performance optimization",
+      "System integrity checks"
+    ],
+    "process": [
+      "Preliminary diagnostics and error assessment",
+      "Fix implementation and system repairs",
+      "Testing and final system validation"
+    ],
+    "requirements": [
+      "Device login password (if applicable)",
+      "Power adapter or fully charged battery"
+    ]
+  },
+  {
+    "icon": "fas fa-tachometer-alt",
+    "slug": "pc-optimization",
+    "title": "PC Optimization",
+    "subtitle": "Boost your computer's speed and overall performance",
+    "overview": "Is your PC running slow or acting sluggish? Our PC Optimization service deep-cleans your system, removes junk files and unnecessary apps, and fine-tunes performance settings to give your computer a new life. Enjoy faster boot times, smoother multitasking, and more available system resources. Perfect for everyday users, gamers, and professionals who want a faster, more responsive machine.",
+    "included": [
+      "Cleanup of startup programs and background tasks",
+      "Removal of bloatware and unused software",
+      "Registry cleanup and disk optimization",
+      "Performance tuning and system speed boost",
+      "Browser and temp files cleanup"
+    ],
+    "process": [
+      "System evaluation and performance analysis",
+      "Deep cleanup and system tuning",
+      "Testing and final adjustments"
+    ],
+    "requirements": [
+      "Administrator access (password)"
+    ]
+  },
+  {
+   "icon": "fas fa-shield-virus",
+   "slug": "virus-removal",
+    "title": "Virus Removal",
+    "subtitle": "Complete malware removal and enhanced system security",
+    "overview": "Worried your PC is infected with viruses, malware, or spyware? Our Virus Removal service scans your system thoroughly, eliminates malicious software, and strengthens your defenses against future attacks. We update your drivers, install essential tools, and make sure your computer runs clean, secure, and fast again — without losing your personal files.",
+    "included": [
+      "Full malware and virus scan",
+      "Removal of trojans, spyware, ransomware, etc.",
+      "Driver updates and security patching",
+      "Installation of antivirus and protection tools",
+      "Security configuration and browser cleanup"
+    ],
+    "process": [
+      "System scan and malware detection",
+      "Threat removal and file restoration",
+      "Security configuration and testing"
+    ],
+    "requirements": [
+      "Internet connection",
+      "Admin access",
+      "Software keys if needed"
+    ]
+  },
+  {
+    "icon": "fas fa-database",
+    "slug": "data-backup-recovery",
+    "title": "Data Backup & Recovery",
+    "subtitle": "Secure backups and professional data recovery services",
+    "overview": "Lost important files due to system failure, accidental deletion, or drive corruption? Our Data Backup & Recovery service helps you retrieve valuable files safely and set up secure backups to prevent future loss. Whether it's personal documents, photos, or critical business data, we handle your files with the utmost care and confidentiality.",
+    "included": [
+      "Backup to external drive or cloud storage",
+      "Data recovery from corrupted or formatted drives",
+      "File system repair if needed",
+      "Optional backup scheduling setup",
+      "Advice on best backup practices"
+    ],
+    "process": [
+      "Initial assessment of data condition",
+      "Attempt recovery using professional tools",
+      "Perform and verify secure backup"
+    ],
+    "requirements": [
+      "Storage device (USB, external HDD, or cloud account)",
+      "User authorization and system access"
+    ]
+  },
+  {
+    "icon": "fas fa-download",
+    "slug": "driver-software-installation",
+    "title": "Driver & Software Installation",
+    "subtitle": "Installation of the latest drivers and essential software",
+    "overview": "Make sure your computer is running at its best by installing all necessary drivers and essential software. Our expert service ensures full hardware compatibility, up-to-date components, and smooth system performance. Whether you need Office tools, antivirus, or browsers, we take care of everything — saving you time and avoiding technical headaches.",
+    "included": [
+      "Driver updates for all components",
+      "Installation of requested software (Office, browsers, antivirus, etc.)",
+      "Basic configuration and optimization",
+      "Removal of outdated or conflicting drivers (if needed)"
+    ],
+    "process": [
+      "Check system compatibility and missing drivers",
+      "Download and install required drivers and software",
+      "Configuration and performance test"
+    ],
+    "requirements": [
+      "Stable internet connection",
+      "Software license keys if applicable",
+      "Admin access to the system"
+    ]
+  },
+  {
+    "icon": "fas fa-headset",
+    "slug": "remote-assistance",
+    "title": "Remote Assistance",
+    "subtitle": "Professional remote support for immediate problem resolution. ",
+    "overview": "Fast support over the internet using AnyDesk or TeamViewer. Get real-time tech help from the comfort of your home or office. With our remote assistance, we troubleshoot and resolve your issues live through screen sharing — fast, secure, and efficient. No need to travel or wait for on-site support.",
+    "included": [
+      "Issue diagnosis",
+      "Live assistance",
+      "Screen sharing & resolution"
+    ],
+    "process": [
+      "Client contact",
+      "Connection setup",
+      "Issue resolution"
+    ],
+    "requirements": [
+      "Internet connection",
+      "AnyDesk or TeamViewer ID"
+    ]
+  },
+  {
+    "icon": "fas fa-user-cog",
+    "slug": "microsoft-account-setup",
+    "title": "Microsoft Account Setup",
+    "subtitle": "Complete Microsoft account setup and synchronization.",
+    "overview": "Assistance in creating, configuring, or recovering a Microsoft account. Set up or recover your Microsoft account with ease. We guide you through every step — from account creation to security configuration and synchronization. Essential for using OneDrive, Outlook, Microsoft Store, and other Microsoft services.",
+    "included": [
+      "Account creation",
+      "Security setup",
+      "Password recovery"
+    ],
+    "process": [
+      "User identity check",
+      "Step-by-step assistance"
+    ],
+    "requirements": [
+      "Email or phone access",
+      "Personal details for verification"
+    ]
+  },
+  {
+    "icon": "fas fa-compact-disc",
+    "slug": "secure-iso-download",
+    "title": "Secure ISO Download",
+    "subtitle": "Official Windows and Office ISO files from Microsoft servers",
+    "overview": "We provide trusted and secure download links for official ISO files. Need a clean copy of Windows or Office? We provide official ISO files from Microsoft servers — safe, virus-free, and ready for installation. Whether you're reinstalling your system or creating a bootable USB, we've got you covered.",
+    "included": [
+      "Windows ISO",
+      "Office ISO",
+      "Activation guide (optional)"
+    ],
+    "process": [
+      "Request verification",
+      "Secure link sent to client"
+    ],
+    "requirements": [
+      "Storage space",
+      "Email or messaging app for delivery"
+    ]
+  },
+  {
+    "icon": "fas fa-shield-alt",
+    "slug": "antivirus-setup",
+    "title": "Antivirus Setup",
+    "subtitle": "Professional installation and configuration of antivirus software",
+    "overview": "Our antivirus setup service ensures your computer is protected against malware, spyware, and viruses using leading security software. Protect your PC from online threats with our professional antivirus setup. We install trusted security software, configure real-time protection, and schedule regular updates. Stay safe from viruses, malware, and spyware — 24/7.",
+    "included": [
+      "Installation of antivirus software",
+      "Configuration of real-time protection",
+      "Initial scan and threat removal",
+      "Update scheduling",
+      "Support in case of alerts"
+    ],
+    "process": [
+      "Choose antivirus brand",
+      "Remote installation",
+      "Set up preferences",
+      "Initial system scan"
+    ],
+    "requirements": [
+      "Compatible operating system",
+      "Administrator privileges",
+      "Internet connection"
+    ],
+    "features": [
+      "Trusted security brands",
+      "Zero configuration hassle",
+      "24/7 threat monitoring",
+      "Peace of mind guaranteed"
+    ]
+  },
+  {
+    "icon": "fas fa-building",
+    "slug": "bulk-activation-business",
+    "title": "Bulk Activation for Businesses",
+    "subtitle": "Enterprise-level activation solutions for organizations",
+    "overview": "Activate multiple PCs with licensed Windows or Office at once for businesses. Our bulk licensing solutions are designed for schools, NGOs, and enterprises — saving you time, reducing costs, and ensuring compliance with genuine licenses.",
+    "included": [
+      "Activation service",
+      "Installation assistance",
+      "License verification"
+    ],
+    "process": [
+      "Needs assessment",
+      "Batch activation",
+      "Post-activation report"
+    ],
+    "requirements": [
+      "Administrator access",
+      "List of device specifications"
+    ]
+  },
+  {
+    "title": "Vente & Installation de Jeux Vidéo",
+    "subtitle": "Large choix de jeux pour toutes plateformes, installation et configuration incluses.",
+    "icon": "fas fa-gamepad",
+    "slug": "vente-installation-jeux-video",
+    "duration": "Varies",
+    "warranty": "7 days",
+    "overview": "We offer a wide range of PC games with installation support and updates. Looking for your favorite games? We offer a wide selection of PC games with installation and configuration included. Whether it's Steam titles or offline versions, we make sure everything runs smoothly — ready to play, hassle-free.",
+    "included": [
+      "Game sale (Steam, offline installers, etc.)",
+      "Installation",
+      "Crack or license setup if needed"
+    ],
+    "process": [
+      "Game selection",
+      "Purchase or activation",
+      "Installation and test"
+    ],
+    "requirements": [
+      "Sufficient disk space",
+      "Internet if online activation is required"
+    ]
+  }
+]

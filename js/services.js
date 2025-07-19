@@ -1,8 +1,8 @@
 const servicesDataset = [
   {
-    title: "Activation Windows 10/11",
+    title: "Windows 10/11 Activation",
     subtitle:
-      "Activation Windows authentique avec validité à vie et support Microsoft complet",
+      "Authentic Windows activation with lifetime validity and full Microsoft support",
     icon: "fab fa-windows",
     slug: "activation-windows-10-11",
     hash: "9f7d5089a7a2c5f5e2fa1c942ccce3a6",
@@ -10,7 +10,7 @@ const servicesDataset = [
     duration: "15-30 minutes",
     warranty: "Lifetime",
     overview:
-      "Our Windows 10/11 activation service provides you with genuine, lifetime activation for your Windows operating system. We use only legitimate Microsoft licenses to ensure your system remains fully functional and receives all security updates.",
+      "Get your Windows operating system fully activated with a genuine license, valid for life. Our fast and secure activation process ensures your system runs smoothly, receives all updates, and remains eligible for official Microsoft support. No more warnings or limitations — just a powerful, optimized Windows experience.",
     included: [
       "Genuine Windows 10/11 Pro activation",
       "Lifetime validity - no expiration",
@@ -42,14 +42,14 @@ const servicesDataset = [
     title: "Office 365/2016/2019/2021 Activation",
     icon: "fas fa-file-alt",
     subtitle:
-      "Activation complète de la suite Microsoft Office avec toutes les fonctionnalités débloquées",
+      "Full activation of the Microsoft Office suite with all features unlocked",
     slug: "activation-office-365-2016-2019-2021",
     hash: "7ec59a41921f6178f6db9b5e74c8b9c0",
     dataTranslateKey: "services.office.title",
     duration: "20-40 minutes",
     warranty: "1 year",
     overview:
-      "We provide fast and reliable installation of Microsoft Office suites, including Office 2019, 2021, or Microsoft 365. Ideal for students, professionals, and businesses.",
+      "We provide fast and reliable installation of Microsoft Office suites, including Office 2019, 2021, or Microsoft 365. Ideal for students, professionals, and businesses. Unlock the full potential of Microsoft Office with our professional activation service. Whether you need Word, Excel, Outlook, or PowerPoint, we ensure a smooth setup with all features enabled. Perfect for work, study, and business — enjoy the complete Office suite without restrictions.",
     included: [
       "Installation of Office software",
       "Account setup (if needed)",
@@ -82,11 +82,11 @@ const servicesDataset = [
     hash: "59dd28f06b3849c1f3f3b8d3e1bdb76b",
     dataTranslateKey: "services.reinstall.title",
     subtitle:
-      "Installation Windows propre avec tous les pilotes et logiciels essentiels",
+      "Clean Windows installation with all essential drivers and software",
     duration: "2 hours",
     warranty: "15 days",
     overview:
-      "Complete system wipe and reinstall with updated drivers and essential software.",
+      "Complete system wipe and reinstall with updated drivers and essential software. Give your computer a fresh start with our full system reinstallation service. We format your machine, reinstall a clean version of Windows, and set up all essential drivers and software for optimal performance. It's the perfect solution for slow, infected, or unstable systems.",
     included: [
       "Data backup (if requested)",
       "Latest Windows OS installation",
@@ -110,12 +110,11 @@ const servicesDataset = [
     slug: "system-repair",
     hash: "cdbb93088e2d626c15e656add3e2480c",
     dataTranslateKey: "services.repair.title",
-    subtitle:
-      "Correction des erreurs Windows, plantages et problèmes de performance",
+    subtitle: "Fix Windows errors, crashes, and performance issues",
     duration: "1-3 hours",
     warranty: "7 days",
     overview:
-      "Diagnose and repair common system issues like crashes, boot loops, and slowdowns.",
+      "Diagnose and repair common system issues like crashes, boot loops, and slowdowns. Is your PC crashing, freezing, or running slow? We diagnose and fix a wide range of system errors — from registry issues to driver failures — ensuring your computer is back to peak condition. Fast, reliable, and stress-free repair that restores your productivity.",
     included: [
       "System diagnostics",
       "Fix registry errors",
@@ -129,18 +128,18 @@ const servicesDataset = [
     ],
     requirements: ["Device password (if needed)", "Charger or power adapter"],
   },
+
   {
     title: "PC Optimization",
     icon: "fas fa-tachometer-alt",
     slug: "pc-optimization",
     hash: "58d4e918b770a68b84cf8c80553572a1",
     dataTranslateKey: "services.optimization.title",
-    subtitle:
-      "Accélérez votre ordinateur et améliorez les performances globales",
+    subtitle: "Speed up your computer and improve overall performance",
     duration: "1 hour",
     warranty: "7 days",
     overview:
-      "Improve speed, responsiveness, and stability of your PC with deep cleaning and tune-up.",
+      "Improve speed, responsiveness, and stability of your PC with deep cleaning and tune-up. Boost the speed and responsiveness of your computer with our advanced optimization service. We clean up junk files, remove unnecessary programs, fix registry issues, and fine-tune system settings — leaving you with a faster, smoother, and more reliable PC.",
     included: [
       "Startup cleanup",
       "Unwanted software removal",
@@ -154,18 +153,18 @@ const servicesDataset = [
     ],
     requirements: ["Administrator access"],
   },
+
   {
     title: "Virus Removal",
     icon: "fas fa-shield-virus",
     slug: "virus-removal",
     hash: "90ab03db1a4f9f9d222abc2a4152bcfa",
     dataTranslateKey: "services.virus.title",
-    subtitle:
-      "Suppression complète des malwares et amélioration de la sécurité système",
+    subtitle: "Complete malware removal and system security enhancement",
     duration: "30-60 minutes",
     warranty: "7 days",
     overview:
-      "Ensure all drivers are up to date and install requested software packages.",
+      "Ensure all drivers are up to date and install requested software packages. Eliminate viruses, malware, and security threats with our deep cleaning service. We ensure your system is safe, stable, and protected — using trusted tools and best practices. Ideal for users facing strange behavior, pop-ups, or performance drops.",
     included: [
       "Driver update",
       "Software setup (Office, browsers, antivirus, etc.)",
@@ -177,6 +176,7 @@ const servicesDataset = [
     ],
     requirements: ["Internet connection", "Software keys if needed"],
   },
+
   {
     title: "Data Backup & Recovery",
     icon: "fas fa-database",
@@ -184,10 +184,10 @@ const servicesDataset = [
     hash: "2f37f08d12cb00b23926dcf2ccac0075",
     dataTranslateKey: "services.data.title",
     duration: "Varies (30 mins to 4 hrs)",
-    subtitle: "Sauvegarde sécurisée et services de récupération professionnels",
+    subtitle: "Secure data backup and professional recovery services",
     warranty: "N/A",
     overview:
-      "Recover accidentally deleted or lost data and perform safe backups.",
+      "Recover accidentally deleted or lost data and perform safe backups. Accidentally lost important files? We recover deleted or inaccessible data and create secure backups to prevent future loss. Whether it's photos, documents, or business data — our experts ensure your precious files are safe and restorable.",
     included: [
       "Backup to external drive or cloud",
       "Recovery from corrupted drives",
@@ -209,11 +209,11 @@ const servicesDataset = [
     slug: "driver-software-installation",
     hash: "3f083c0c4a4bdf50bba79bc54e37dd7c",
     dataTranslateKey: "services.drivers.title",
-    subtitle: "Installation des derniers pilotes et logiciels essentiels",
+    subtitle: "Latest drivers and essential software installation",
     duration: "30-60 minutes",
     warranty: "7 days",
     overview:
-      "Ensure all drivers are up to date and install requested software packages.",
+      "Ensure all drivers are up to date and install requested software packages. Make your PC fully functional with the latest drivers and essential software. We install, configure, and update all necessary components — ensuring hardware compatibility and smooth operation. Save time and avoid tech headaches with our expert setup.",
     included: [
       "Driver update",
       "Software setup (Office, browsers, antivirus, etc.)",
@@ -231,11 +231,11 @@ const servicesDataset = [
     slug: "remote-assistance",
     hash: "83c87bfc8ab9d539efed3cf5a649e991",
     dataTranslateKey: "services.remote.title",
-    subtitle:
-      "Support à distance professionnel pour résolution immédiate des problèmes",
+    subtitle: "Professional remote support for immediate problem resolution",
     duration: "30 mins - 1 hr",
     warranty: "7 days",
-    overview: "Fast support over the internet using AnyDesk or TeamViewer.",
+    overview:
+      "Fast support over the internet using AnyDesk or TeamViewer. Get real-time tech support from the comfort of your home or office. With our remote assistance, we troubleshoot and resolve your issues live through screen sharing — fast, secure, and efficient. No need to travel or wait for on-site support.",
     included: ["Issue diagnosis", "Live assistance", "Screen sharing & fix"],
     process: ["Client contact", "Connection setup", "Resolution"],
     requirements: ["Internet connection", "Anydesk or TeamViewer ID"],
@@ -246,11 +246,11 @@ const servicesDataset = [
     slug: "microsoft-account-setup",
     hash: "b4adf65ef1236c579c2fd4c87ac1c923",
     dataTranslateKey: "services.account.title",
-    subtitle: "Configuration complète du compte Microsoft et synchronisation",
+    subtitle: "Complete Microsoft account configuration and synchronization",
     duration: "30 minutes",
     warranty: "N/A",
     overview:
-      "Assistance in creating, configuring, or recovering a Microsoft account.",
+      "Assistance in creating, configuring, or recovering a Microsoft account. Set up or recover your Microsoft account with ease. We guide you through every step — from creation to security configuration and synchronization. Essential for using OneDrive, Outlook, Windows Store, and other Microsoft services.",
     included: ["Account creation", "Security setup", "Password recovery"],
     process: ["User identity check", "Step-by-step assistance"],
     requirements: [
@@ -264,12 +264,11 @@ const servicesDataset = [
     slug: "secure-iso-download",
     hash: "d3d4b9c49de0d3a7134f03c7253909a7",
     dataTranslateKey: "services.iso.title",
-    subtitle:
-      "Fichiers ISO officiels Windows et Office depuis les serveurs Microsoft",
+    subtitle: "Official Windows and Office ISO files from Microsoft servers",
     duration: "Instant",
     warranty: "N/A",
     overview:
-      "We provide trusted and secure download links for official ISO files.",
+      "We provide trusted and secure download links for official ISO files. Need a clean copy of Windows or Office? We provide official ISO files from Microsoft servers — safe, virus-free, and ready for installation. Whether you're reinstalling your system or creating a bootable USB, we've got you covered.",
     included: ["Windows ISO", "Office ISO", "Activation guide (optional)"],
     process: ["Request verification", "Secure link sent to client"],
     requirements: ["Storage space", "Email or messaging app for delivery"],
@@ -280,11 +279,11 @@ const servicesDataset = [
     slug: "antivirus-setup",
     hash: "1fc7e8bd97f5c6fd706ee03e3e4dbb44",
     dataTranslateKey: "services.antivirus.title",
-    subtitle: "Installation et configuration professionnelle d'antivirus",
+    subtitle: "Professional antivirus installation and configuration",
     duration: "10-20 minutes",
     warranty: "6 months",
     overview:
-      "Our antivirus setup service ensures your computer is protected against malware, spyware, and viruses using leading security software.",
+      "Our antivirus setup service ensures your computer is protected against malware, spyware, and viruses using leading security software. Protect your PC from online threats with our professional antivirus setup. We install trusted security software, configure real-time protection, and schedule regular updates. Stay safe from viruses, malware, and spyware — 24/7.",
     included: [
       "Installation of antivirus software",
       "Configuration of real-time protection",
@@ -316,11 +315,11 @@ const servicesDataset = [
     slug: "bulk-activation-business",
     hash: "4b9d7982c1b0d5e296b0dc7a43e5a25e",
     dataTranslateKey: "services.bulk.title",
-    subtitle: "Solutions d'activation de niveau entreprise pour organisations",
+    subtitle: "Enterprise-grade activation solutions for organizations",
     duration: "Depends on number of devices",
     warranty: "30 days",
     overview:
-      "Activate multiple PCs with licensed Windows/Office at once for businesses.",
+      "Activate multiple PCs with licensed Windows/Office at once for businesses. Activate multiple Windows or Office installations efficiently across your organization. Our bulk licensing solutions are designed for schools, NGOs, and enterprises — saving you time, money, and ensuring compliance with genuine licenses.",
     included: [
       "Activation service",
       "Installation help",
@@ -330,18 +329,17 @@ const servicesDataset = [
     requirements: ["Admin access", "List of device specifications"],
   },
   {
-    title: "Vente & Installation de Jeux Vidéo",
-    subtitle: "Buy and install your favorite PC games",
+    title: "Xbox Video Games Sales & Installation",
     icon: "fas fa-gamepad",
     slug: "vente-installation-jeux-video",
     hash: "6c52f507d2343e844cf7ab4c3ac8e17f",
     dataTranslateKey: "services.games.title",
     subtitle:
-      "Large choix de jeux pour toutes plateformes, installation et configuration incluses.",
+      "Wide selection of games for all platforms, including installation and setup.",
     duration: "Varies",
     warranty: "7 days",
     overview:
-      "We offer a wide range of PC games with installation support and updates.",
+      "We offer a wide range of PC games with installation support and updates. Looking for your favorite games? We offer a wide selection of PC games with installation and configuration included. Whether it's Steam titles or offline versions, we make sure everything runs smoothly — ready to play, hassle-free.",
     included: [
       "Game sale (Steam, offline installers, etc.)",
       "Installation",
@@ -358,44 +356,3 @@ const servicesDataset = [
     ],
   },
 ];
-document.addEventListener("DOMContentLoaded", function () {
-  // Fonction pour créer un slug hashé
-  function generateSlugHash(input) {
-    return Array.from(new TextEncoder().encode(input))
-      .reduce((hash, byte) => (hash * 31 + byte) % 1e9, 0)
-      .toString(16);
-  }
-
-  // Stocker dans localStorage (si besoin pour detail.html)
-  localStorage.setItem(
-    "servicesDataset",
-    JSON.stringify(
-      servicesDataset.map((service) => ({
-        ...service,
-        hash: generateSlugHash(service.dataTranslateKey),
-      }))
-    )
-  );
-
-  // Sélectionner le conteneur
-  const container = document.querySelector(".services-grid");
-
-  // Générer et injecter chaque carte
-  servicesDataset.forEach((service) => {
-    const slugHash = generateSlugHash(service.dataTranslateKey);
-    const link = `detail.html?slug=${service.slug}`;
-
-    // Créer l'élément HTML
-    const card = document.createElement("div");
-    card.className = "service-card";
-    card.innerHTML = `
-    <a href="${link}" class="service-link"></a>
-    <div class="service-icon"><i class="${service.icon}"></i></div>
-    <div class="service-content">
-      <h3 data-translate="${service.dataTranslateKey}">${service.title}</h3>
-      <p data-translate="services.windows.desc"></p>
-    </div>
-  `;
-    container.appendChild(card);
-  });
-});

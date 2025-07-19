@@ -164,7 +164,7 @@ const translations = {
     "contact.phone.available": "Disponible 24/7",
     "contact.whatsapp.title": "WhatsApp",
     "contact.address.title": "Adresse",
-    "contact.whatsapp.chat": "Chatter Maintenant",
+    "contact.whatsapp.chat": "Besoin d’aide ? Discutons-en !",
     "contact.email.title": "Email",
     "contact.email.reply": "Nous répondons en 1 heure",
     "contact.hours.title": "Heures d'Ouverture",
@@ -211,6 +211,24 @@ const translations = {
     "footer.hours": "Support 24/7",
     "footer.copyright":
       "© 2024 WinActivate Pro. Tous droits réservés. | Politique de Confidentialité | Conditions de Service",
+
+    "detail.overview": "Aperçu du Service",
+    "detail.whats.included": "Ce qui est inclus :",
+    "detail.process": "Processus :",
+    "detail.requirements": "Exigences :",
+    "detail.why.choose": "Pourquoi choisir notre service ?",
+    "detail.service.info": "Informations sur le Service",
+    "detail.duration": "Durée :",
+    "detail.delivery": "Livraison :",
+    "detail.warranty": "Garantie :",
+    "detail.support": "Support :",
+    "detail.remote.service": "Service à distance",
+    "detail.available.247": "24/7 disponible",
+    "detail.related.services": "Services Connexes",
+    "detail.ready.started": "Prêt à Commencer ?",
+    "detail.contact.subtitle":
+      "Contactez-nous maintenant pour activer votre Windows ou obtenir tout autre service",
+    "detail.get.service": "Obtenir ce Service",
   },
 
   en: {
@@ -421,6 +439,24 @@ const translations = {
     "footer.hours": "24/7 Support",
     "footer.copyright":
       "© 2024 WinActivate Pro. All rights reserved. | Privacy Policy | Terms of Service",
+
+    "detail.overview": "Service Overview",
+    "detail.whats.included": "What's Included:",
+    "detail.process": "Process:",
+    "detail.requirements": "Requirements:",
+    "detail.why.choose": "Why Choose Our Service?",
+    "detail.service.info": "Service Information",
+    "detail.duration": "Duration:",
+    "detail.delivery": "Delivery:",
+    "detail.warranty": "Warranty:",
+    "detail.support": "Support:",
+    "detail.remote.service": "Remote service",
+    "detail.available.247": "24/7 available",
+    "detail.related.services": "Related Services",
+    "detail.ready.started": "Ready to Get Started?",
+    "detail.contact.subtitle":
+      "Contact us now to activate your Windows or get any other service",
+    "detail.get.service": "Get This Service",
   },
 
   nl: {
@@ -630,6 +666,24 @@ const translations = {
     "footer.hours": "24/7 Ondersteuning",
     "footer.copyright":
       "© 2024 WinActivate Pro. Alle rechten voorbehouden. | Privacybeleid | Servicevoorwaarden",
+
+    "detail.overview": "Service Overzicht",
+    "detail.whats.included": "Wat is inbegrepen:",
+    "detail.process": "Proces:",
+    "detail.requirements": "Vereisten:",
+    "detail.why.choose": "Waarom onze service kiezen?",
+    "detail.service.info": "Service Informatie",
+    "detail.duration": "Duur:",
+    "detail.delivery": "Levering:",
+    "detail.warranty": "Garantie:",
+    "detail.support": "Ondersteuning:",
+    "detail.remote.service": "Externe service",
+    "detail.available.247": "24/7 beschikbaar",
+    "detail.related.services": "Gerelateerde Services",
+    "detail.ready.started": "Klaar om te Beginnen?",
+    "detail.contact.subtitle":
+      "Neem nu contact met ons op om uw Windows te activeren of een andere service te krijgen",
+    "detail.get.service": "Krijg deze Service",
   },
 };
 
@@ -640,8 +694,39 @@ function getTranslation(key, lang = "fr") {
     : translations["fr"][key] || key;
 }
 
+async function renderServices(lang) {
+  if (document.querySelector(".services-grid")) {
+    const container = document.querySelector(".services-grid");
+
+    // Nettoyer le contenu existant avant de rajouter les nouveaux services
+    container.innerHTML = "";
+
+    const res = await fetch(`/data/${lang}.json`);
+    const servicesDataset = await res.json();
+    localStorage.setItem("lang", lang);
+
+    // Générer et injecter chaque carte
+    servicesDataset.forEach((service) => {
+      const link = `/detail?slug=${service.slug}`;
+
+      const card = document.createElement("div");
+      card.className = "service-card";
+      card.innerHTML = `
+      <a href="${link}" class="service-link"></a>
+      <div class="service-icon"><i class="${service.icon}"></i></div>
+      <div class="service-content">
+        <h3>${service.title}</h3>
+        <p>${service.subtitle}</p>
+      </div>
+    `;
+      container.appendChild(card);
+    });
+  }
+}
+
 // Fonction pour changer la langue
-function changeLanguage(lang) {
+async function changeLanguage(lang) {
+  renderServices(lang);
   // Sauvegarder la langue dans localStorage
   localStorage.setItem("selectedLanguage", lang);
 
