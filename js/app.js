@@ -32,43 +32,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// Contact form handling
-const contactForm = document.getElementById("contactForm");
-contactForm.addEventListener("submit", function (e) {
-  e.preventDefault();
-
-  // Get form data
-  const formData = new FormData(contactForm);
-  const data = Object.fromEntries(formData);
-
-  // Basic validation
-  if (!data.name || !data.email || !data.service) {
-    alert("Please fill in all required fields.");
-    return;
-  }
-
-  // Email validation
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(data.email)) {
-    alert("Please enter a valid email address.");
-    return;
-  }
-
-  // Simulate form submission
-  const submitButton = contactForm.querySelector('button[type="submit"]');
-  const originalText = submitButton.textContent;
-
-  submitButton.textContent = "Sending...";
-  submitButton.disabled = true;
-
-  setTimeout(() => {
-    alert("Thank you for your message! We will get back to you within 1 hour.");
-    contactForm.reset();
-    submitButton.textContent = originalText;
-    submitButton.disabled = false;
-  }, 1500);
-});
-
 // Intersection Observer for animations
 const observerOptions = {
   threshold: 0.1,
