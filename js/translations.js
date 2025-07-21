@@ -8,6 +8,7 @@ const translations = {
     "nav.faq": "FAQ",
     "nav.testimonials": "Avis",
     "nav.contact": "Contact",
+    "nav.logo": "Microsoft Dépannage",
 
     // Hero Section
     "hero.title": "Activez Windows & Office Facilement",
@@ -210,7 +211,7 @@ const translations = {
     "footer.contact": "Informations Contact",
     "footer.hours": "Support 24/7",
     "footer.copyright":
-      "© 2024 WinActivate Pro. Tous droits réservés. | Politique de Confidentialité | Conditions de Service",
+      "© 2024 Microsoft Dépannage. Tous droits réservés. | Politique de Confidentialité | Conditions de Service",
 
     "detail.overview": "Aperçu du Service",
     "detail.whats.included": "Ce qui est inclus :",
@@ -248,6 +249,7 @@ const translations = {
     "nav.faq": "FAQ",
     "nav.testimonials": "Reviews",
     "nav.contact": "Contact",
+    "nav.logo": "Microsoft Troubleshooting",
 
     // Hero Section
     "hero.title": "Activate Windows & Office Easily",
@@ -447,7 +449,7 @@ const translations = {
     "footer.service.remote": "Remote Support",
     "footer.hours": "24/7 Support",
     "footer.copyright":
-      "© 2024 WinActivate Pro. All rights reserved. | Privacy Policy | Terms of Service",
+      "© 2024 Microsoft Troubleshooting. All rights reserved. | Privacy Policy | Terms of Service",
 
     "detail.overview": "Service Overview",
     "detail.whats.included": "What's Included:",
@@ -485,6 +487,7 @@ const translations = {
     "nav.faq": "FAQ",
     "nav.testimonials": "Reviews",
     "nav.contact": "Contact",
+    "nav.logo": "Microsoft Probleemoplossing",
 
     // Hero Section
     "hero.title": "Activeer Windows & Office Eenvoudig",
@@ -683,7 +686,7 @@ const translations = {
     "footer.service.remote": "Externe Ondersteuning",
     "footer.hours": "24/7 Ondersteuning",
     "footer.copyright":
-      "© 2024 WinActivate Pro. Alle rechten voorbehouden. | Privacybeleid | Servicevoorwaarden",
+      "© 2024 Microsoft Probleemoplossing. Alle rechten voorbehouden. | Privacybeleid | Servicevoorwaarden",
 
     "detail.overview": "Service Overzicht",
     "detail.whats.included": "Wat is inbegrepen:",
