@@ -46,14 +46,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'mamba.salama.s@gmail.com';
-        $mail->Password   = 'xvpbgztsusrqseuf'; // mot de passe d'application Gmail
+        $mail->Username   = 'microsftsolutionbelgique@gmail.com';
+        $mail->Password   = 'forhwpavfmpllgwv '; // mot de passe d'application Gmail
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
         // 📬 Expéditeur et destinataire
-        $mail->setFrom('mamba.salama.s@gmail.com', 'Formulaire de contact');
-        $mail->addAddress('mamba.salama.s@gmail.com');
+        $mail->setFrom('microsftsolutionbelgique@gmail.com', 'Formulaire de contact');
+        $mail->addAddress('microsftsolutionbelgique@gmail.com');
 
         // Répondre à l'expéditeur
         if (!$mail->addReplyTo($email, $name)) {
